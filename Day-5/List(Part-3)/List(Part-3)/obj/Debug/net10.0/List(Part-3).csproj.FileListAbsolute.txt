@@ -1,0 +1,14 @@
+E:\Day-5\List(Part-3)\List(Part-3)\bin\Debug\net10.0\List(Part-3).exe
+E:\Day-5\List(Part-3)\List(Part-3)\bin\Debug\net10.0\List(Part-3).deps.json
+E:\Day-5\List(Part-3)\List(Part-3)\bin\Debug\net10.0\List(Part-3).runtimeconfig.json
+E:\Day-5\List(Part-3)\List(Part-3)\bin\Debug\net10.0\List(Part-3).dll
+E:\Day-5\List(Part-3)\List(Part-3)\bin\Debug\net10.0\List(Part-3).pdb
+E:\Day-5\List(Part-3)\List(Part-3)\obj\Debug\net10.0\List(Part-3).GeneratedMSBuildEditorConfig.editorconfig
+E:\Day-5\List(Part-3)\List(Part-3)\obj\Debug\net10.0\List(Part-3).AssemblyInfoInputs.cache
+E:\Day-5\List(Part-3)\List(Part-3)\obj\Debug\net10.0\List(Part-3).AssemblyInfo.cs
+E:\Day-5\List(Part-3)\List(Part-3)\obj\Debug\net10.0\List(Part-3).csproj.CoreCompileInputs.cache
+E:\Day-5\List(Part-3)\List(Part-3)\obj\Debug\net10.0\List(Part-3).dll
+E:\Day-5\List(Part-3)\List(Part-3)\obj\Debug\net10.0\refint\List(Part-3).dll
+E:\Day-5\List(Part-3)\List(Part-3)\obj\Debug\net10.0\List(Part-3).pdb
+E:\Day-5\List(Part-3)\List(Part-3)\obj\Debug\net10.0\List(Part-3).genruntimeconfig.cache
+E:\Day-5\List(Part-3)\List(Part-3)\obj\Debug\net10.0\ref\List(Part-3).dll

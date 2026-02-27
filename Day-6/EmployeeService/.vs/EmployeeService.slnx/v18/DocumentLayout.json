@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Palak Gupta_6207350\\Day-6\\EmployeeService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D53F5899-CBE3-ED74-91F4-4309BFEC1D72}|EmployeeService\\EmployeeService.csproj|e:\\palak gupta_6207350\\day-6\\employeeservice\\employeeservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D53F5899-CBE3-ED74-91F4-4309BFEC1D72}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D53F5899-CBE3-ED74-91F4-4309BFEC1D72}|EmployeeService\\EmployeeService.csproj|e:\\palak gupta_6207350\\day-6\\employeeservice\\employeeservice\\employee_management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D53F5899-CBE3-ED74-91F4-4309BFEC1D72}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\employee_management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D53F5899-CBE3-ED74-91F4-4309BFEC1D72}|EmployeeService\\EmployeeService.csproj|e:\\palak gupta_6207350\\day-6\\employeeservice\\employeeservice\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D53F5899-CBE3-ED74-91F4-4309BFEC1D72}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "E:\\Palak Gupta_6207350\\Day-6\\EmployeeService\\EmployeeService\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "EmployeeService\\EmployeeService.cs",
+              "ToolTip": "E:\\Palak Gupta_6207350\\Day-6\\EmployeeService\\EmployeeService\\EmployeeService.cs",
+              "RelativeToolTip": "EmployeeService\\EmployeeService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAqwEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T05:37:19.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee_Management.cs",
+              "DocumentMoniker": "E:\\Palak Gupta_6207350\\Day-6\\EmployeeService\\EmployeeService\\Employee_Management.cs",
+              "RelativeDocumentMoniker": "EmployeeService\\Employee_Management.cs",
+              "ToolTip": "E:\\Palak Gupta_6207350\\Day-6\\EmployeeService\\EmployeeService\\Employee_Management.cs",
+              "RelativeToolTip": "EmployeeService\\Employee_Management.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T05:35:23.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Palak Gupta_6207350\\Day-6\\EmployeeService\\EmployeeService\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeService\\Program.cs",
+              "ToolTip": "E:\\Palak Gupta_6207350\\Day-6\\EmployeeService\\EmployeeService\\Program.cs",
+              "RelativeToolTip": "EmployeeService\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAqwEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T05:30:34.815Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

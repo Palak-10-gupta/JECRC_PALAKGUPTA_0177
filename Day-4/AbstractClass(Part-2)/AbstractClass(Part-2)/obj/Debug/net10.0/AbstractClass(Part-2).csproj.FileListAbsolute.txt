@@ -1,0 +1,14 @@
+E:\Day-4\AbstractClass(Part-2)\AbstractClass(Part-2)\obj\Debug\net10.0\AbstractClass(Part-2).GeneratedMSBuildEditorConfig.editorconfig
+E:\Day-4\AbstractClass(Part-2)\AbstractClass(Part-2)\obj\Debug\net10.0\AbstractClass(Part-2).AssemblyInfoInputs.cache
+E:\Day-4\AbstractClass(Part-2)\AbstractClass(Part-2)\obj\Debug\net10.0\AbstractClass(Part-2).AssemblyInfo.cs
+E:\Day-4\AbstractClass(Part-2)\AbstractClass(Part-2)\obj\Debug\net10.0\AbstractClass(Part-2).csproj.CoreCompileInputs.cache
+E:\Day-4\AbstractClass(Part-2)\AbstractClass(Part-2)\bin\Debug\net10.0\AbstractClass(Part-2).exe
+E:\Day-4\AbstractClass(Part-2)\AbstractClass(Part-2)\bin\Debug\net10.0\AbstractClass(Part-2).deps.json
+E:\Day-4\AbstractClass(Part-2)\AbstractClass(Part-2)\bin\Debug\net10.0\AbstractClass(Part-2).runtimeconfig.json
+E:\Day-4\AbstractClass(Part-2)\AbstractClass(Part-2)\bin\Debug\net10.0\AbstractClass(Part-2).dll
+E:\Day-4\AbstractClass(Part-2)\AbstractClass(Part-2)\bin\Debug\net10.0\AbstractClass(Part-2).pdb
+E:\Day-4\AbstractClass(Part-2)\AbstractClass(Part-2)\obj\Debug\net10.0\AbstractClass(Part-2).dll
+E:\Day-4\AbstractClass(Part-2)\AbstractClass(Part-2)\obj\Debug\net10.0\refint\AbstractClass(Part-2).dll
+E:\Day-4\AbstractClass(Part-2)\AbstractClass(Part-2)\obj\Debug\net10.0\AbstractClass(Part-2).pdb
+E:\Day-4\AbstractClass(Part-2)\AbstractClass(Part-2)\obj\Debug\net10.0\AbstractClass(Part-2).genruntimeconfig.cache
+E:\Day-4\AbstractClass(Part-2)\AbstractClass(Part-2)\obj\Debug\net10.0\ref\AbstractClass(Part-2).dll

@@ -1,0 +1,14 @@
+E:\Day-1\BoxingUnboxing\singleDimensionalArray\bin\Debug\net10.0\singleDimensionalArray.exe
+E:\Day-1\BoxingUnboxing\singleDimensionalArray\bin\Debug\net10.0\singleDimensionalArray.deps.json
+E:\Day-1\BoxingUnboxing\singleDimensionalArray\bin\Debug\net10.0\singleDimensionalArray.runtimeconfig.json
+E:\Day-1\BoxingUnboxing\singleDimensionalArray\bin\Debug\net10.0\singleDimensionalArray.dll
+E:\Day-1\BoxingUnboxing\singleDimensionalArray\bin\Debug\net10.0\singleDimensionalArray.pdb
+E:\Day-1\BoxingUnboxing\singleDimensionalArray\obj\Debug\net10.0\singleDimensionalArray.GeneratedMSBuildEditorConfig.editorconfig
+E:\Day-1\BoxingUnboxing\singleDimensionalArray\obj\Debug\net10.0\singleDimensionalArray.AssemblyInfoInputs.cache
+E:\Day-1\BoxingUnboxing\singleDimensionalArray\obj\Debug\net10.0\singleDimensionalArray.AssemblyInfo.cs
+E:\Day-1\BoxingUnboxing\singleDimensionalArray\obj\Debug\net10.0\singleDimensionalArray.csproj.CoreCompileInputs.cache
+E:\Day-1\BoxingUnboxing\singleDimensionalArray\obj\Debug\net10.0\singleDimensionalArray.dll
+E:\Day-1\BoxingUnboxing\singleDimensionalArray\obj\Debug\net10.0\refint\singleDimensionalArray.dll
+E:\Day-1\BoxingUnboxing\singleDimensionalArray\obj\Debug\net10.0\singleDimensionalArray.pdb
+E:\Day-1\BoxingUnboxing\singleDimensionalArray\obj\Debug\net10.0\singleDimensionalArray.genruntimeconfig.cache
+E:\Day-1\BoxingUnboxing\singleDimensionalArray\obj\Debug\net10.0\ref\singleDimensionalArray.dll

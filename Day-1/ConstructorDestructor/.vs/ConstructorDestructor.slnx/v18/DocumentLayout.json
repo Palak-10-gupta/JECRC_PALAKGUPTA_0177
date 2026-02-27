@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Day-1\\ConstructorDestructor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33C652FC-BFCA-408D-AF85-47478C7EEF23}|ConstructorDestructor\\ConstructorDestructor.csproj|e:\\day-1\\constructordestructor\\constructordestructor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33C652FC-BFCA-408D-AF85-47478C7EEF23}|ConstructorDestructor\\ConstructorDestructor.csproj|solutionrelative:constructordestructor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Day-1\\ConstructorDestructor\\ConstructorDestructor\\Program.cs",
+              "RelativeDocumentMoniker": "ConstructorDestructor\\Program.cs",
+              "ToolTip": "E:\\Day-1\\ConstructorDestructor\\ConstructorDestructor\\Program.cs",
+              "RelativeToolTip": "ConstructorDestructor\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T10:20:00.189Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

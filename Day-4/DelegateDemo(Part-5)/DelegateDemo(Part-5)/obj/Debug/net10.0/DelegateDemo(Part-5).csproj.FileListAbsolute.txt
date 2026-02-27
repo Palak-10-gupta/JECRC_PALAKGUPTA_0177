@@ -1,0 +1,14 @@
+E:\Day-4\DelegateDemo(Part-5)\DelegateDemo(Part-5)\bin\Debug\net10.0\DelegateDemo(Part-5).exe
+E:\Day-4\DelegateDemo(Part-5)\DelegateDemo(Part-5)\bin\Debug\net10.0\DelegateDemo(Part-5).deps.json
+E:\Day-4\DelegateDemo(Part-5)\DelegateDemo(Part-5)\bin\Debug\net10.0\DelegateDemo(Part-5).runtimeconfig.json
+E:\Day-4\DelegateDemo(Part-5)\DelegateDemo(Part-5)\bin\Debug\net10.0\DelegateDemo(Part-5).dll
+E:\Day-4\DelegateDemo(Part-5)\DelegateDemo(Part-5)\bin\Debug\net10.0\DelegateDemo(Part-5).pdb
+E:\Day-4\DelegateDemo(Part-5)\DelegateDemo(Part-5)\obj\Debug\net10.0\DelegateDemo(Part-5).GeneratedMSBuildEditorConfig.editorconfig
+E:\Day-4\DelegateDemo(Part-5)\DelegateDemo(Part-5)\obj\Debug\net10.0\DelegateDemo(Part-5).AssemblyInfoInputs.cache
+E:\Day-4\DelegateDemo(Part-5)\DelegateDemo(Part-5)\obj\Debug\net10.0\DelegateDemo(Part-5).AssemblyInfo.cs
+E:\Day-4\DelegateDemo(Part-5)\DelegateDemo(Part-5)\obj\Debug\net10.0\DelegateDemo(Part-5).csproj.CoreCompileInputs.cache
+E:\Day-4\DelegateDemo(Part-5)\DelegateDemo(Part-5)\obj\Debug\net10.0\DelegateDemo(Part-5).dll
+E:\Day-4\DelegateDemo(Part-5)\DelegateDemo(Part-5)\obj\Debug\net10.0\refint\DelegateDemo(Part-5).dll
+E:\Day-4\DelegateDemo(Part-5)\DelegateDemo(Part-5)\obj\Debug\net10.0\DelegateDemo(Part-5).pdb
+E:\Day-4\DelegateDemo(Part-5)\DelegateDemo(Part-5)\obj\Debug\net10.0\DelegateDemo(Part-5).genruntimeconfig.cache
+E:\Day-4\DelegateDemo(Part-5)\DelegateDemo(Part-5)\obj\Debug\net10.0\ref\DelegateDemo(Part-5).dll

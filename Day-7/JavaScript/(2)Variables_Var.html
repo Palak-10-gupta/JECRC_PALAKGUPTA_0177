@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript var Example</title>
+</head>
+
+<body>
+
+    <h1>JavaScript Variable Redeclaration with <code>var</code></h1>
+    <p>Open the browser console (F12) to see the output from code.</p>
+    <p>Result displayed on page: <span id="output"></span></p>
+
+    <script>
+        // Your code
+        var name = "Alice";
+        var name = "Bob";   // No error (var allows redeclaration)
+        console.log(name);  // Bob
+
+        // Also display on the page
+        document.getElementById("output").textContent = name;
+
+        console.log("\n===== FUNCTION SCOPE =====");
+
+        function testVar() {
+            var name = "Charlie";   // This is a different variable (function scope)
+            console.log(name);      // Charlie
+        }
+
+        testVar();
+        console.log(name);  // Still Bob, because function's 'name' is local
+
+        console.log("\n===== Primitive data types =====");
+
+        let name2 = "David";     // String
+        let age = 30;            // Number
+        let isStudent = false;   // Boolean
+        let salary;   
+        let bonus = null        // Undefined
+        let bigNumber = 9007153464475757n; //BigInt
+
+        console.log(typeof name2); //string
+        console.log(typeof age); //number
+        console.log(typeof isStudent); //boolean
+        console.log(typeof salary);//undefined
+        console.log(typeof bonus);//object(null is of type "object")
+        console.log(typeof bigNumber); //bigint
+
+        console.log("\n===== Non-Primitive data types =====");
+
+        let person = { name: "Eve", age: 25 };  // Object
+        let numbers = [1, 2, 3, 4, 5];          // Array
+        let today = new Date();                 // Date object
+        function greet(){                       //function
+        return "Welcome!";                   
+        } 
+        console.log(typeof greet);   // function
+        console.log(typeof person);   // object
+        console.log(typeof numbers);  // object (arrays are objects)
+        console.log(typeof today);    // object
+    </script>
+
+</body>
+</html>

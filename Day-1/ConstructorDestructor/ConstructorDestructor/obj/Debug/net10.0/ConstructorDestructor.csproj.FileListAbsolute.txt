@@ -1,0 +1,14 @@
+E:\Day-1\ConstructorDestructor\ConstructorDestructor\bin\Debug\net10.0\ConstructorDestructor.exe
+E:\Day-1\ConstructorDestructor\ConstructorDestructor\bin\Debug\net10.0\ConstructorDestructor.deps.json
+E:\Day-1\ConstructorDestructor\ConstructorDestructor\bin\Debug\net10.0\ConstructorDestructor.runtimeconfig.json
+E:\Day-1\ConstructorDestructor\ConstructorDestructor\bin\Debug\net10.0\ConstructorDestructor.dll
+E:\Day-1\ConstructorDestructor\ConstructorDestructor\bin\Debug\net10.0\ConstructorDestructor.pdb
+E:\Day-1\ConstructorDestructor\ConstructorDestructor\obj\Debug\net10.0\ConstructorDestructor.GeneratedMSBuildEditorConfig.editorconfig
+E:\Day-1\ConstructorDestructor\ConstructorDestructor\obj\Debug\net10.0\ConstructorDestructor.AssemblyInfoInputs.cache
+E:\Day-1\ConstructorDestructor\ConstructorDestructor\obj\Debug\net10.0\ConstructorDestructor.AssemblyInfo.cs
+E:\Day-1\ConstructorDestructor\ConstructorDestructor\obj\Debug\net10.0\ConstructorDestructor.csproj.CoreCompileInputs.cache
+E:\Day-1\ConstructorDestructor\ConstructorDestructor\obj\Debug\net10.0\ConstructorDestructor.dll
+E:\Day-1\ConstructorDestructor\ConstructorDestructor\obj\Debug\net10.0\refint\ConstructorDestructor.dll
+E:\Day-1\ConstructorDestructor\ConstructorDestructor\obj\Debug\net10.0\ConstructorDestructor.pdb
+E:\Day-1\ConstructorDestructor\ConstructorDestructor\obj\Debug\net10.0\ConstructorDestructor.genruntimeconfig.cache
+E:\Day-1\ConstructorDestructor\ConstructorDestructor\obj\Debug\net10.0\ref\ConstructorDestructor.dll

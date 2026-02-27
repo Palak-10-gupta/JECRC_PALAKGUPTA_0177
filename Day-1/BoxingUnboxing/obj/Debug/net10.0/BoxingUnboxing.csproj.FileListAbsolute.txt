@@ -1,0 +1,14 @@
+E:\Day-1\BoxingUnboxing\bin\Debug\net10.0\BoxingUnboxing.exe
+E:\Day-1\BoxingUnboxing\bin\Debug\net10.0\BoxingUnboxing.deps.json
+E:\Day-1\BoxingUnboxing\bin\Debug\net10.0\BoxingUnboxing.runtimeconfig.json
+E:\Day-1\BoxingUnboxing\bin\Debug\net10.0\BoxingUnboxing.dll
+E:\Day-1\BoxingUnboxing\bin\Debug\net10.0\BoxingUnboxing.pdb
+E:\Day-1\BoxingUnboxing\obj\Debug\net10.0\BoxingUnboxing.GeneratedMSBuildEditorConfig.editorconfig
+E:\Day-1\BoxingUnboxing\obj\Debug\net10.0\BoxingUnboxing.AssemblyInfoInputs.cache
+E:\Day-1\BoxingUnboxing\obj\Debug\net10.0\BoxingUnboxing.AssemblyInfo.cs
+E:\Day-1\BoxingUnboxing\obj\Debug\net10.0\BoxingUnboxing.csproj.CoreCompileInputs.cache
+E:\Day-1\BoxingUnboxing\obj\Debug\net10.0\BoxingUnboxing.dll
+E:\Day-1\BoxingUnboxing\obj\Debug\net10.0\refint\BoxingUnboxing.dll
+E:\Day-1\BoxingUnboxing\obj\Debug\net10.0\BoxingUnboxing.pdb
+E:\Day-1\BoxingUnboxing\obj\Debug\net10.0\BoxingUnboxing.genruntimeconfig.cache
+E:\Day-1\BoxingUnboxing\obj\Debug\net10.0\ref\BoxingUnboxing.dll

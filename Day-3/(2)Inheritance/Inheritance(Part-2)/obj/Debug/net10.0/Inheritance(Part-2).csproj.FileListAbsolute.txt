@@ -1,0 +1,14 @@
+E:\Day-3\Inheritance(Part-2)\Inheritance(Part-2)\bin\Debug\net10.0\Inheritance(Part-2).exe
+E:\Day-3\Inheritance(Part-2)\Inheritance(Part-2)\bin\Debug\net10.0\Inheritance(Part-2).deps.json
+E:\Day-3\Inheritance(Part-2)\Inheritance(Part-2)\bin\Debug\net10.0\Inheritance(Part-2).runtimeconfig.json
+E:\Day-3\Inheritance(Part-2)\Inheritance(Part-2)\bin\Debug\net10.0\Inheritance(Part-2).dll
+E:\Day-3\Inheritance(Part-2)\Inheritance(Part-2)\bin\Debug\net10.0\Inheritance(Part-2).pdb
+E:\Day-3\Inheritance(Part-2)\Inheritance(Part-2)\obj\Debug\net10.0\Inheritance(Part-2).GeneratedMSBuildEditorConfig.editorconfig
+E:\Day-3\Inheritance(Part-2)\Inheritance(Part-2)\obj\Debug\net10.0\Inheritance(Part-2).AssemblyInfoInputs.cache
+E:\Day-3\Inheritance(Part-2)\Inheritance(Part-2)\obj\Debug\net10.0\Inheritance(Part-2).AssemblyInfo.cs
+E:\Day-3\Inheritance(Part-2)\Inheritance(Part-2)\obj\Debug\net10.0\Inheritance(Part-2).csproj.CoreCompileInputs.cache
+E:\Day-3\Inheritance(Part-2)\Inheritance(Part-2)\obj\Debug\net10.0\Inheritance(Part-2).dll
+E:\Day-3\Inheritance(Part-2)\Inheritance(Part-2)\obj\Debug\net10.0\refint\Inheritance(Part-2).dll
+E:\Day-3\Inheritance(Part-2)\Inheritance(Part-2)\obj\Debug\net10.0\Inheritance(Part-2).pdb
+E:\Day-3\Inheritance(Part-2)\Inheritance(Part-2)\obj\Debug\net10.0\Inheritance(Part-2).genruntimeconfig.cache
+E:\Day-3\Inheritance(Part-2)\Inheritance(Part-2)\obj\Debug\net10.0\ref\Inheritance(Part-2).dll

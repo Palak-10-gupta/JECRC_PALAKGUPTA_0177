@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Palak Gupta_6207350\\Day-2\\randomNumber\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03610BE8-E88B-1843-3A17-40449AAC43E9}|randomNumber\\randomNumber.csproj|e:\\palak gupta_6207350\\day-2\\randomnumber\\randomnumber\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03610BE8-E88B-1843-3A17-40449AAC43E9}|randomNumber\\randomNumber.csproj|solutionrelative:randomnumber\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Palak Gupta_6207350\\Day-2\\randomNumber\\randomNumber\\Program.cs",
+              "RelativeDocumentMoniker": "randomNumber\\Program.cs",
+              "ToolTip": "E:\\Palak Gupta_6207350\\Day-2\\randomNumber\\randomNumber\\Program.cs",
+              "RelativeToolTip": "randomNumber\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T10:47:03.013Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

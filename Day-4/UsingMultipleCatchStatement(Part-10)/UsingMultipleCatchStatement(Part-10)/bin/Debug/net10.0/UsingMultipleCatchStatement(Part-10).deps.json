@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "UsingMultipleCatchStatement(Part-10)/1.0.0": {
+        "runtime": {
+          "UsingMultipleCatchStatement(Part-10).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UsingMultipleCatchStatement(Part-10)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

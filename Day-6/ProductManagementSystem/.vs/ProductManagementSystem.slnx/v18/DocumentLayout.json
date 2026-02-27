@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Palak Gupta_6207350\\Day-6\\ProductManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37E69F02-9081-4243-88E0-2EFF3B15DD19}|ProductManagementSystem\\ProductManagementSystem.csproj|e:\\palak gupta_6207350\\day-6\\productmanagementsystem\\productmanagementsystem\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E69F02-9081-4243-88E0-2EFF3B15DD19}|ProductManagementSystem\\ProductManagementSystem.csproj|solutionrelative:productmanagementsystem\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E69F02-9081-4243-88E0-2EFF3B15DD19}|ProductManagementSystem\\ProductManagementSystem.csproj|e:\\palak gupta_6207350\\day-6\\productmanagementsystem\\productmanagementsystem\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E69F02-9081-4243-88E0-2EFF3B15DD19}|ProductManagementSystem\\ProductManagementSystem.csproj|solutionrelative:productmanagementsystem\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E69F02-9081-4243-88E0-2EFF3B15DD19}|ProductManagementSystem\\ProductManagementSystem.csproj|e:\\palak gupta_6207350\\day-6\\productmanagementsystem\\productmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E69F02-9081-4243-88E0-2EFF3B15DD19}|ProductManagementSystem\\ProductManagementSystem.csproj|solutionrelative:productmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 102,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\Palak Gupta_6207350\\Day-6\\ProductManagementSystem\\ProductManagementSystem\\Product.cs",
+              "RelativeDocumentMoniker": "ProductManagementSystem\\Product.cs",
+              "ToolTip": "E:\\Palak Gupta_6207350\\Day-6\\ProductManagementSystem\\ProductManagementSystem\\Product.cs",
+              "RelativeToolTip": "ProductManagementSystem\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:09:02.348Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "E:\\Palak Gupta_6207350\\Day-6\\ProductManagementSystem\\ProductManagementSystem\\ProductService.cs",
+              "RelativeDocumentMoniker": "ProductManagementSystem\\ProductService.cs",
+              "ToolTip": "E:\\Palak Gupta_6207350\\Day-6\\ProductManagementSystem\\ProductManagementSystem\\ProductService.cs",
+              "RelativeToolTip": "ProductManagementSystem\\ProductService.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAkwMIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:12:19.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Palak Gupta_6207350\\Day-6\\ProductManagementSystem\\ProductManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "ProductManagementSystem\\Program.cs",
+              "ToolTip": "E:\\Palak Gupta_6207350\\Day-6\\ProductManagementSystem\\ProductManagementSystem\\Program.cs",
+              "RelativeToolTip": "ProductManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:05:40.187Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

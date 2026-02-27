@@ -1,0 +1,14 @@
+E:\Day-4\Task-3(Part-8)\Task-3(Part-8)\bin\Debug\net10.0\Task-3(Part-8).exe
+E:\Day-4\Task-3(Part-8)\Task-3(Part-8)\bin\Debug\net10.0\Task-3(Part-8).deps.json
+E:\Day-4\Task-3(Part-8)\Task-3(Part-8)\bin\Debug\net10.0\Task-3(Part-8).runtimeconfig.json
+E:\Day-4\Task-3(Part-8)\Task-3(Part-8)\bin\Debug\net10.0\Task-3(Part-8).dll
+E:\Day-4\Task-3(Part-8)\Task-3(Part-8)\bin\Debug\net10.0\Task-3(Part-8).pdb
+E:\Day-4\Task-3(Part-8)\Task-3(Part-8)\obj\Debug\net10.0\Task-3(Part-8).GeneratedMSBuildEditorConfig.editorconfig
+E:\Day-4\Task-3(Part-8)\Task-3(Part-8)\obj\Debug\net10.0\Task-3(Part-8).AssemblyInfoInputs.cache
+E:\Day-4\Task-3(Part-8)\Task-3(Part-8)\obj\Debug\net10.0\Task-3(Part-8).AssemblyInfo.cs
+E:\Day-4\Task-3(Part-8)\Task-3(Part-8)\obj\Debug\net10.0\Task-3(Part-8).csproj.CoreCompileInputs.cache
+E:\Day-4\Task-3(Part-8)\Task-3(Part-8)\obj\Debug\net10.0\Task-3(Part-8).dll
+E:\Day-4\Task-3(Part-8)\Task-3(Part-8)\obj\Debug\net10.0\refint\Task-3(Part-8).dll
+E:\Day-4\Task-3(Part-8)\Task-3(Part-8)\obj\Debug\net10.0\Task-3(Part-8).pdb
+E:\Day-4\Task-3(Part-8)\Task-3(Part-8)\obj\Debug\net10.0\Task-3(Part-8).genruntimeconfig.cache
+E:\Day-4\Task-3(Part-8)\Task-3(Part-8)\obj\Debug\net10.0\ref\Task-3(Part-8).dll

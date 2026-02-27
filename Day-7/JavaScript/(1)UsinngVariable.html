@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Variable</title>
+</head>
+<body>
+    <h1>Using Variable</h1>
+    <p id = "outputgreeting"></p>
+    <p id="output"></p>
+    <script>
+        var greeting = "Welcome to JavaScript!";
+        console.log(greeting);
+        let name = "John";
+        console.log("Welcome, " + name + "!");
+        document.getElementById("outputgreeting").innerHTML =  greeting + " " + name;
+        var company = "CAPGEMINI";
+        let city = "Bangalore";
+        const year = 2024;
+
+        document.getElementById("output").innerHTML= company+" "+city+" "+year;
+        if(true){
+            var company = "TCS";
+            let city = "Mumbai";
+            const year = 2025;
+            console.log("Inside block: " + company + ","+ location + "," + year);
+
+        }
+        console.log("Outside block: " + company + "," + location +"," + year);
+   </script>
+</body>
+</html>

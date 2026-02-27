@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Day-1\\SortIntArray\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5F5392-9B8D-4C8A-A9E7-3FC16B910EE6}|SortIntArray\\SortIntArray.csproj|e:\\day-1\\sortintarray\\sortintarray\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5F5392-9B8D-4C8A-A9E7-3FC16B910EE6}|SortIntArray\\SortIntArray.csproj|solutionrelative:sortintarray\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Day-1\\SortIntArray\\SortIntArray\\Program.cs",
+              "RelativeDocumentMoniker": "SortIntArray\\Program.cs",
+              "ToolTip": "E:\\Day-1\\SortIntArray\\SortIntArray\\Program.cs",
+              "RelativeToolTip": "SortIntArray\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T10:20:25.897Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

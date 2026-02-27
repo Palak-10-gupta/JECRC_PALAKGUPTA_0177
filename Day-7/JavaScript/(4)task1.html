@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inventory Management</title>
+</head>
+<body>
+
+<h2>Inventory Management System</h2>
+<div id="output"></div>
+
+<script>
+
+
+   //Helper Function
+function print(message) {
+    console.log(message);
+    document.getElementById("output").innerHTML += message + "<br>";
+}
+
+   // Global Variables
+
+const companyName = "Tech Warehouse";
+let warehouseLocation = "Jaipur";
+var totalProducts = 0;
+
+print("Company: " + companyName);
+print("Warehouse Location: " + warehouseLocation);
+    //Array of Products
+let products = [
+    { id: 1, name: "Laptop", price: 50000, quantity: 5 },
+    { id: 2, name: "Mobile", price: 20000, quantity: 10 },
+    { id: 3, name: "Headphones", price: 2000, quantity: 20 }
+];
+
+totalProducts = products.length;
+
+   // Functions
+
+// Display Products
+function displayProducts() {
+    print("<br><b>===== Product List =====</b>");
+
+    for (let i = 0; i < products.length; i++) {
+        print(
+            "ID: " + products[i].id +
+            " | Name: " + products[i].name +
+            " | Price: " + products[i].price +
+            " | Quantity: " + products[i].quantity
+        );
+    }
+}
+
+
+// Calculate Inventory Value
+function calculateInventoryValue() {
+    let totalValue = 0;
+
+    for (let i = 0; i < products.length; i++) {
+        totalValue += products[i].price * products[i].quantity;
+    }
+
+    print("<br>Total Inventory Value: " + totalValue);
+    return totalValue;
+}
+
+
+// Apply Discount
+function applyDiscount(discountPercent = 10) {
+    print("<br>Applying Discount: " + discountPercent + "%");
+
+    for (let i = 0; i < products.length; i++) {
+        products[i].price -= (products[i].price * discountPercent) / 100;
+    }
+}
+
+   //Block Scope Demo
+
+print("<br><b>===== Block Scope Demo =====</b>");
+
+{
+    let warehouseLocation = "Delhi";  // Block scoped
+    var totalProducts = 100;          // Global scoped (var)
+
+    print("Inside Block:");
+    print("Warehouse Location: " + warehouseLocation);
+    print("Total Products: " + totalProducts);
+}
+
+print("<br>Outside Block:");
+print("Warehouse Location: " + warehouseLocation); // Jaipur
+print("Total Products: " + totalProducts);         // 100
+
+  // Function Calls
+
+displayProducts();
+calculateInventoryValue();
+applyDiscount();
+displayProducts();
+
+</script>
+
+</body>
+</html>
