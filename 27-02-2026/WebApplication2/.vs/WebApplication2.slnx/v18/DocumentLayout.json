@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "E:\\JECRC_PALAK GUPTA_0177\\Day-8\\WebApplication2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5BB5010-6C66-405B-917D-F6ED844CF82C}|WebApplication2\\WebApplication2.csproj|e:\\jecrc_palak gupta_0177\\day-8\\webapplication2\\webapplication2\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5BB5010-6C66-405B-917D-F6ED844CF82C}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F6CC55CC-4C48-05CF-9997-EAA913F81323}|WebApplication2\\WebApplication2.csproj|e:\\jecrc_palak gupta_0177\\day-8\\webapplication2\\webapplication2\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6CC55CC-4C48-05CF-9997-EAA913F81323}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5BB5010-6C66-405B-917D-F6ED844CF82C}|WebApplication2\\WebApplication2.csproj|e:\\jecrc_palak gupta_0177\\day-8\\webapplication2\\webapplication2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5BB5010-6C66-405B-917D-F6ED844CF82C}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6CC55CC-4C48-05CF-9997-EAA913F81323}|WebApplication2\\WebApplication2.csproj|e:\\jecrc_palak gupta_0177\\day-8\\webapplication2\\webapplication2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6CC55CC-4C48-05CF-9997-EAA913F81323}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5BB5010-6C66-405B-917D-F6ED844CF82C}|WebApplication2\\WebApplication2.csproj|e:\\jecrc_palak gupta_0177\\day-8\\webapplication2\\webapplication2\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5BB5010-6C66-405B-917D-F6ED844CF82C}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6CC55CC-4C48-05CF-9997-EAA913F81323}|WebApplication2\\WebApplication2.csproj|e:\\jecrc_palak gupta_0177\\day-8\\webapplication2\\webapplication2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6CC55CC-4C48-05CF-9997-EAA913F81323}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5BB5010-6C66-405B-917D-F6ED844CF82C}|WebApplication2\\WebApplication2.csproj|e:\\jecrc_palak gupta_0177\\day-8\\webapplication2\\webapplication2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5BB5010-6C66-405B-917D-F6ED844CF82C}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6CC55CC-4C48-05CF-9997-EAA913F81323}|WebApplication2\\WebApplication2.csproj|e:\\jecrc_palak gupta_0177\\day-8\\webapplication2\\webapplication2\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6CC55CC-4C48-05CF-9997-EAA913F81323}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5BB5010-6C66-405B-917D-F6ED844CF82C}|WebApplication2\\WebApplication2.csproj|e:\\jecrc_palak gupta_0177\\day-8\\webapplication2\\webapplication2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5BB5010-6C66-405B-917D-F6ED844CF82C}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F6CC55CC-4C48-05CF-9997-EAA913F81323}|WebApplication2\\WebApplication2.csproj|e:\\jecrc_palak gupta_0177\\day-8\\webapplication2\\webapplication2\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6CC55CC-4C48-05CF-9997-EAA913F81323}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5BB5010-6C66-405B-917D-F6ED844CF82C}|WebApplication2\\WebApplication2.csproj|e:\\jecrc_palak gupta_0177\\day-8\\webapplication2\\webapplication2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5BB5010-6C66-405B-917D-F6ED844CF82C}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F6CC55CC-4C48-05CF-9997-EAA913F81323}|WebApplication2\\WebApplication2.csproj|e:\\jecrc_palak gupta_0177\\day-8\\webapplication2\\webapplication2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6CC55CC-4C48-05CF-9997-EAA913F81323}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5BB5010-6C66-405B-917D-F6ED844CF82C}|WebApplication2\\WebApplication2.csproj|e:\\jecrc_palak gupta_0177\\day-8\\webapplication2\\webapplication2\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5BB5010-6C66-405B-917D-F6ED844CF82C}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F6CC55CC-4C48-05CF-9997-EAA913F81323}|WebApplication2\\WebApplication2.csproj|e:\\jecrc_palak gupta_0177\\day-8\\webapplication2\\webapplication2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6CC55CC-4C48-05CF-9997-EAA913F81323}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5BB5010-6C66-405B-917D-F6ED844CF82C}|WebApplication2\\WebApplication2.csproj|e:\\jecrc_palak gupta_0177\\day-8\\webapplication2\\webapplication2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5BB5010-6C66-405B-917D-F6ED844CF82C}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F6CC55CC-4C48-05CF-9997-EAA913F81323}|WebApplication2\\WebApplication2.csproj|e:\\jecrc_palak gupta_0177\\day-8\\webapplication2\\webapplication2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6CC55CC-4C48-05CF-9997-EAA913F81323}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,16 +50,16 @@
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Day-8\\WebApplication2\\WebApplication2\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication2\\Views\\Products\\Index.cshtml",
-              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Day-8\\WebApplication2\\WebApplication2\\Views\\Products\\Index.cshtml*",
-              "RelativeToolTip": "WebApplication2\\Views\\Products\\Index.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Day-8\\WebApplication2\\WebApplication2\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "WebApplication2\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-27T07:20:18.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Day-8\\WebApplication2\\WebApplication2\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "WebApplication2\\Controllers\\ProductsController.cs",
@@ -67,12 +67,11 @@
               "RelativeToolTip": "WebApplication2\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T07:09:03.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T07:09:03.716Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Day-8\\WebApplication2\\WebApplication2\\Models\\Product.cs",
               "RelativeDocumentMoniker": "WebApplication2\\Models\\Product.cs",
@@ -80,12 +79,11 @@
               "RelativeToolTip": "WebApplication2\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T07:06:16.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T07:06:16.023Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Day-8\\WebApplication2\\WebApplication2\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "WebApplication2\\Views\\Home\\Privacy.cshtml",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "WebApplication2\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-27T07:01:03.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T07:01:03.736Z"
             },
             {
               "$type": "Document",
@@ -106,12 +103,11 @@
               "RelativeToolTip": "WebApplication2\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-27T07:00:37.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T07:00:37.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Day-8\\WebApplication2\\WebApplication2\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WebApplication2\\Controllers\\HomeController.cs",
@@ -124,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Day-8\\WebApplication2\\WebApplication2\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplication2\\Views\\Shared\\_Layout.cshtml",
@@ -132,8 +128,7 @@
               "RelativeToolTip": "WebApplication2\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-27T07:00:22.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T07:00:22.892Z"
             },
             {
               "$type": "Document",
@@ -145,8 +140,7 @@
               "RelativeToolTip": "WebApplication2\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-27T07:00:47.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T07:00:47.081Z"
             }
           ]
         }
