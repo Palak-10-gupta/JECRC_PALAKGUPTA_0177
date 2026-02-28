@@ -1,0 +1,15 @@
+E:\JECRC_PALAK GUPTA_0177\28-02-2026\Student_Eligibility_Validation_System\bin\Debug\net10.0\Student_Eligibility_Validation_System.exe
+E:\JECRC_PALAK GUPTA_0177\28-02-2026\Student_Eligibility_Validation_System\bin\Debug\net10.0\Student_Eligibility_Validation_System.deps.json
+E:\JECRC_PALAK GUPTA_0177\28-02-2026\Student_Eligibility_Validation_System\bin\Debug\net10.0\Student_Eligibility_Validation_System.runtimeconfig.json
+E:\JECRC_PALAK GUPTA_0177\28-02-2026\Student_Eligibility_Validation_System\bin\Debug\net10.0\Student_Eligibility_Validation_System.dll
+E:\JECRC_PALAK GUPTA_0177\28-02-2026\Student_Eligibility_Validation_System\bin\Debug\net10.0\Student_Eligibility_Validation_System.pdb
+E:\JECRC_PALAK GUPTA_0177\28-02-2026\Student_Eligibility_Validation_System\obj\Debug\net10.0\Student_Eligibility_Validation_System.GeneratedMSBuildEditorConfig.editorconfig
+E:\JECRC_PALAK GUPTA_0177\28-02-2026\Student_Eligibility_Validation_System\obj\Debug\net10.0\Student_Eligibility_Validation_System.AssemblyInfoInputs.cache
+E:\JECRC_PALAK GUPTA_0177\28-02-2026\Student_Eligibility_Validation_System\obj\Debug\net10.0\Student_Eligibility_Validation_System.AssemblyInfo.cs
+E:\JECRC_PALAK GUPTA_0177\28-02-2026\Student_Eligibility_Validation_System\obj\Debug\net10.0\Student_Eligibility_Validation_System.csproj.CoreCompileInputs.cache
+E:\JECRC_PALAK GUPTA_0177\28-02-2026\Student_Eligibility_Validation_System\obj\Debug\net10.0\Student_Eligibility_Validation_System.sourcelink.json
+E:\JECRC_PALAK GUPTA_0177\28-02-2026\Student_Eligibility_Validation_System\obj\Debug\net10.0\Student_Eligibility_Validation_System.dll
+E:\JECRC_PALAK GUPTA_0177\28-02-2026\Student_Eligibility_Validation_System\obj\Debug\net10.0\refint\Student_Eligibility_Validation_System.dll
+E:\JECRC_PALAK GUPTA_0177\28-02-2026\Student_Eligibility_Validation_System\obj\Debug\net10.0\Student_Eligibility_Validation_System.pdb
+E:\JECRC_PALAK GUPTA_0177\28-02-2026\Student_Eligibility_Validation_System\obj\Debug\net10.0\Student_Eligibility_Validation_System.genruntimeconfig.cache
+E:\JECRC_PALAK GUPTA_0177\28-02-2026\Student_Eligibility_Validation_System\obj\Debug\net10.0\ref\Student_Eligibility_Validation_System.dll
