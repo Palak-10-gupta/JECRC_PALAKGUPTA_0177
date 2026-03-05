@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form Validation Logging</title>
+</head>
+
+<body>
+
+<h2>Email Validation</h2>
+
+<input id="email" placeholder="Enter Email">
+<button onclick="validateForm()">Submit</button>
+
+<script>
+
+const logger = {
+log:function(level,message,data){
+console.log(level + ":", message, data);
+}
+};
+
+function validateForm(){
+
+const email = document.getElementById("email").value;
+
+if(!email.includes("@")){
+
+logger.log("WARN","Invalid Email Entered",email);
+
+alert("Invalid email");
+
+}else{
+
+alert("Valid email");
+
+}
+
+}
+
+</script>
+
+</body>
+</html>

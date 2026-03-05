@@ -1,4 +1,4 @@
-## Task 1: E-Commerce Add to Cart Button
+## Task-1 : E-Commerce Add to Cart Button
 
 ### Scenario
 
@@ -58,8 +58,6 @@ alert("Submitting login form");
 
 ## Task-3 : Secure Banking App Right Click Disable
 
-### Secure Banking App Right Click Disable
-
 ### Scenario
 
 A banking application disables right-click to protect sensitive information.
@@ -78,7 +76,7 @@ console.warn("Right click disabled for security");
 
 });
 ```
-## Task-4 :Customer Support Chat Mouse Hover
+## Task-4 : Customer Support Chat Mouse Hover
 
 ### Scenario
 
@@ -135,4 +133,109 @@ document.getElementById("product").addEventListener("dblclick", function(){
 
 });
 </script>
+```
+
+## Task-6 : Track User Login Activity
+
+### Scenario
+
+In a web application, developers want to log when a user logs in for monitoring purposes.
+
+### Requirement
+
+Capture login button click
+Send log to remote server
+Include username in log
+
+```id="q6req"
+<input id="username" placeholder="Enter Username">
+<button onclick="login()">Login</button>
+
+<script>
+function login(){
+
+const user = document.getElementById("username").value;
+
+logger.log("INFO", "User Login Attempt", {username:user});
+
+}
+</script>
+```
+
+## Task-7 : Log Form Validation Errors
+
+### Scenario
+
+If a user submits an invalid form, developers log the issue.
+
+### Requirement
+
+Validate email input
+Log invalid email error
+
+```id="q7req"
+function validateForm(){
+
+const email = document.getElementById("email").value;
+
+if(!email.includes("@")){
+
+logger.log("WARN","Invalid Email Entered",email);
+
+alert("Invalid email");
+
+}
+
+}
+```
+
+## Task-8 : Track Button Click Analytics
+
+### Scenario
+
+A company wants to track which buttons users click the most.
+
+### Requirement
+
+Track button clicks
+Log user actions
+
+```id="q8req"
+<button onclick="trackClick('Buy Now')">Buy Now</button>
+<button onclick="trackClick('Add Wishlist')">Add Wishlist</button>
+
+<script>
+
+function trackClick(action){
+
+logger.log("INFO","User Action:",action);
+
+}
+
+</script>
+```
+
+## Task-9 : Monitor Page Load Performance
+
+### Scenario
+
+Developers track how long a page takes to load.
+
+### Requirement
+
+Use performance.now()
+Send duration to remote logger
+
+```id="q9req"
+const start = performance.now();
+
+window.onload = function(){
+
+const end = performance.now();
+
+const loadTime = end - start;
+
+logger.log("INFO","Page Load Time:", loadTime + " ms");
+
+}
 ```

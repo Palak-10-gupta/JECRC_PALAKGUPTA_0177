@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Track User Login Activity</title>
+</head>
+
+<body>
+
+<h2>User Login</h2>
+
+<input id="username" placeholder="Enter Username">
+<button onclick="login()">Login</button>
+
+<script>
+
+const logger = {
+log:function(level,message,data){
+console.log(level + ":", message, data);
+}
+};
+
+function login(){
+
+const user = document.getElementById("username").value;
+
+logger.log("INFO", "User Login Attempt", {username:user});
+
+alert("Login attempt logged");
+
+}
+
+</script>
+
+</body>
+</html>
