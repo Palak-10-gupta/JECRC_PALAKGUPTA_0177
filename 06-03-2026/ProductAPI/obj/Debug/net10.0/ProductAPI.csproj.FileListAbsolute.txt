@@ -264,6 +264,7 @@ E:\JECRC_PALAK GUPTA_0177\06-03-2026\ProductAPI\obj\Debug\net10.0\ProductAPI.Ass
 E:\JECRC_PALAK GUPTA_0177\06-03-2026\ProductAPI\obj\Debug\net10.0\ProductAPI.csproj.CoreCompileInputs.cache
 E:\JECRC_PALAK GUPTA_0177\06-03-2026\ProductAPI\obj\Debug\net10.0\ProductAPI.MvcApplicationPartsAssemblyInfo.cs
 E:\JECRC_PALAK GUPTA_0177\06-03-2026\ProductAPI\obj\Debug\net10.0\ProductAPI.MvcApplicationPartsAssemblyInfo.cache
+E:\JECRC_PALAK GUPTA_0177\06-03-2026\ProductAPI\obj\Debug\net10.0\ProductAPI.sourcelink.json
 E:\JECRC_PALAK GUPTA_0177\06-03-2026\ProductAPI\obj\Debug\net10.0\rjimswa.dswa.cache.json
 E:\JECRC_PALAK GUPTA_0177\06-03-2026\ProductAPI\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 E:\JECRC_PALAK GUPTA_0177\06-03-2026\ProductAPI\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
