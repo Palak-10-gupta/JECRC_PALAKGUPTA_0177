@@ -207,7 +207,3 @@ B.Tech Electronics & Communication Engineering
 Jaipur Engineering College and Research Centre
 
 ---
-
-# ⭐ If you like this project
-
-Give it a ⭐ on GitHub!
