@@ -1,0 +1,42 @@
+body{
+margin:0;
+font-family:Arial;
+background:#f3f5ff;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+transition:0.4s;
+}
+
+.container{
+text-align:center;
+background:white;
+padding:40px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+
+button{
+padding:14px 40px;
+font-size:18px;
+border:none;
+border-radius:8px;
+background:#ff9800;
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+background:#e68900;
+}
+
+.dark{
+background:#121212;
+color:white;
+}
+
+.dark .container{
+background:#1f1f1f;
+}
