@@ -1,0 +1,124 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI, sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#4facfe,#00f2fe);
+}
+
+.app{
+background:white;
+padding:35px;
+width:450px;
+border-radius:15px;
+box-shadow:0 15px 40px rgba(0,0,0,0.15);
+}
+
+h1{
+text-align:center;
+margin-bottom:15px;
+}
+
+.dark-btn{
+margin-bottom:15px;
+padding:8px 10px;
+border:none;
+background:#333;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+.input-box{
+display:flex;
+gap:10px;
+margin-bottom:15px;
+}
+
+input{
+flex:1;
+padding:10px;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+select{
+padding:10px;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+button{
+background:#4facfe;
+color:white;
+border:none;
+padding:10px 14px;
+border-radius:8px;
+cursor:pointer;
+}
+
+button:hover{
+background:#2f8cff;
+}
+
+#searchBox{
+margin-bottom:10px;
+width:100%;
+}
+
+.filters{
+display:flex;
+justify-content:space-between;
+margin-bottom:15px;
+}
+
+ul{
+list-style:none;
+}
+
+li{
+background:#f8f9fa;
+padding:12px;
+border-radius:8px;
+margin-bottom:10px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.completed span{
+text-decoration:line-through;
+color:gray;
+}
+
+li button{
+background:#ff4d4d;
+padding:6px 10px;
+}
+
+li button:hover{
+background:#d93636;
+}
+
+.dark{
+background:#1e1e1e;
+}
+
+.dark .app{
+background:#2b2b2b;
+color:white;
+}
+
+.dark input,
+.dark select{
+background:#444;
+color:white;
+border:1px solid #666;
+}
