@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JavaScript Arrow Functions Demo</title>
+
+<!-- Styling -->
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:40px;
+    background:#f4f6f8;
+}
+
+h1{
+    color:#333;
+}
+
+button{
+    padding:10px 20px;
+    font-size:16px;
+    background:#007bff;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+.result-box{
+    margin-top:20px;
+    padding:15px;
+    background:white;
+    border-radius:6px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Unordered List */
+
+ul{
+    margin-top:10px;
+}
+</style>
+
+</head>
+<h1>JavaScript Arrow Function & Array Methods</h1>
+<p>Click the button to run different JavaScript function.</p>
+
+<button id = "runBtn">Run JavaScipt Operations</button>
+<div class = "result-box">
+    <h3>Results</h3>
+    <ul id = "output"></ul>
+</div>
+
+<!-- JavaScript -->
+
+<script>
+
+     //Numbers Array
+    const numbers = [1,2,3,4,5];
+    
+     //Array of Objects
+    const people = [
+        { name: 'Alice', age: 25},
+        { name: 'Bob', age: 30},
+        { name: 'Charlie', age: 35}
+    ];
+
+    //Button reference
+    const runBtn = document.getElementById('runBtn');
+    //output reference
+    const output = document.getElementById('output');
+
+    //1. MAP Function
+    // map() transforms each element
+    const squaredNumbers= numbers.map(num => num * num);
+
+    //2. FILTER Function
+    //filter() selects elements that satisfy condition
+    const adults = people.filter(person => person.age >= 30);
+
+    //3.REDUCE Function
+    // reduce() combines values into one result
+    const totalAge = people.reduce((sum, person) => sum + person.age, 0);
+
+    //Event Listener for the button
+    runBtn.addEventListener('click', () => {
+        //clear previous results
+        output.innerHTML = '';
+
+        //Display squared numbers
+        const squaredList = document.createElement('li');
+        squaredList.textContent = 'Squared Numbers: ' + squaredNumbers.join(',');
+        output.appendChild(squaredList);
+
+        //Display adults
+        const adultsList = document.createElement('li');
+        adultsList.textContent = 'Adults: ' + adults.map(person => person.name).join(',');
+        output.appendChild(adultsList);
+
+        //Display total age
+        const totalAgeList = document.createElement('li');
+        totalAgeList.textContent = 'Total Age: ' + totalAge;
+        output.appendChild(totalAgeList);
+    });
+
+</script>
+</body>
+</html>
