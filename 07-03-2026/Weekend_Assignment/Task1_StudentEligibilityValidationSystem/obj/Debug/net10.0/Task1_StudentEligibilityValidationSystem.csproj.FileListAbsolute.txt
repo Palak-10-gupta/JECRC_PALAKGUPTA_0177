@@ -1,0 +1,15 @@
+E:\JECRC_PALAK GUPTA_0177\07-03-2026\Weekend_Assignment\Task1_StudentEligibilityValidationSystem\bin\Debug\net10.0\Task1_StudentEligibilityValidationSystem.exe
+E:\JECRC_PALAK GUPTA_0177\07-03-2026\Weekend_Assignment\Task1_StudentEligibilityValidationSystem\bin\Debug\net10.0\Task1_StudentEligibilityValidationSystem.deps.json
+E:\JECRC_PALAK GUPTA_0177\07-03-2026\Weekend_Assignment\Task1_StudentEligibilityValidationSystem\bin\Debug\net10.0\Task1_StudentEligibilityValidationSystem.runtimeconfig.json
+E:\JECRC_PALAK GUPTA_0177\07-03-2026\Weekend_Assignment\Task1_StudentEligibilityValidationSystem\bin\Debug\net10.0\Task1_StudentEligibilityValidationSystem.dll
+E:\JECRC_PALAK GUPTA_0177\07-03-2026\Weekend_Assignment\Task1_StudentEligibilityValidationSystem\bin\Debug\net10.0\Task1_StudentEligibilityValidationSystem.pdb
+E:\JECRC_PALAK GUPTA_0177\07-03-2026\Weekend_Assignment\Task1_StudentEligibilityValidationSystem\obj\Debug\net10.0\Task1_StudentEligibilityValidationSystem.GeneratedMSBuildEditorConfig.editorconfig
+E:\JECRC_PALAK GUPTA_0177\07-03-2026\Weekend_Assignment\Task1_StudentEligibilityValidationSystem\obj\Debug\net10.0\Task1_StudentEligibilityValidationSystem.AssemblyInfoInputs.cache
+E:\JECRC_PALAK GUPTA_0177\07-03-2026\Weekend_Assignment\Task1_StudentEligibilityValidationSystem\obj\Debug\net10.0\Task1_StudentEligibilityValidationSystem.AssemblyInfo.cs
+E:\JECRC_PALAK GUPTA_0177\07-03-2026\Weekend_Assignment\Task1_StudentEligibilityValidationSystem\obj\Debug\net10.0\Task1_StudentEligibilityValidationSystem.csproj.CoreCompileInputs.cache
+E:\JECRC_PALAK GUPTA_0177\07-03-2026\Weekend_Assignment\Task1_StudentEligibilityValidationSystem\obj\Debug\net10.0\Task1_StudentEligibilityValidationSystem.sourcelink.json
+E:\JECRC_PALAK GUPTA_0177\07-03-2026\Weekend_Assignment\Task1_StudentEligibilityValidationSystem\obj\Debug\net10.0\Task1_StudentEligibilityValidationSystem.dll
+E:\JECRC_PALAK GUPTA_0177\07-03-2026\Weekend_Assignment\Task1_StudentEligibilityValidationSystem\obj\Debug\net10.0\refint\Task1_StudentEligibilityValidationSystem.dll
+E:\JECRC_PALAK GUPTA_0177\07-03-2026\Weekend_Assignment\Task1_StudentEligibilityValidationSystem\obj\Debug\net10.0\Task1_StudentEligibilityValidationSystem.pdb
+E:\JECRC_PALAK GUPTA_0177\07-03-2026\Weekend_Assignment\Task1_StudentEligibilityValidationSystem\obj\Debug\net10.0\Task1_StudentEligibilityValidationSystem.genruntimeconfig.cache
+E:\JECRC_PALAK GUPTA_0177\07-03-2026\Weekend_Assignment\Task1_StudentEligibilityValidationSystem\obj\Debug\net10.0\ref\Task1_StudentEligibilityValidationSystem.dll
