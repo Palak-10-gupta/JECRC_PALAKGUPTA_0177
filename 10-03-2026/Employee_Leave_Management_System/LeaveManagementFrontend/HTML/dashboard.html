@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Dashboard</title>
+
+<link rel="stylesheet" href="../CSS/style.css">
+
+</head>
+
+<body>
+
+<div class="navbar">
+
+Leave Management Dashboard
+
+</div>
+
+<div class="menu">
+
+<button onclick="window.location='apply-leave.html'">
+
+Apply Leave
+
+</button>
+
+<button onclick="window.location='leave-list.html'">
+
+View My Leaves
+
+</button>
+
+<button onclick="window.location='manager-leaves.html'">
+
+Manager Panel
+
+</button>
+
+<button onclick="logout()">
+
+Logout
+
+</button>
+
+</div>
+
+<script>
+
+function logout(){
+
+localStorage.removeItem("token")
+
+window.location="login.html"
+
+}
+
+</script>
+
+</body>
+
+</html>
