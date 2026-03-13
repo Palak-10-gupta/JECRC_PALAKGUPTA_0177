@@ -1,105 +1,133 @@
-# 📘 JavaScript Array Methods
+# 📘 JavaScript Array Methods Practice Tasks (Questions 16–20)
 
-This repository contains practice questions based on important JavaScript array methods such as **map(), filter(), and reduce().**
+This repository contains practice questions based on important JavaScript array methods:
 
-These tasks are designed to simulate real-world scenarios including student grading systems, e-commerce order filtering, shopping cart calculations, and price updates.
+- map()
+- filter()
+- reduce()
+
+These tasks simulate real-world scenarios like e-commerce filtering, cart calculation, and student grading systems.
 
 ---
 
-## 🚀 Assignment Questions
+# Task 1  
+## E-Commerce Price Update
 
-```js
-
-
-// ========================================
-// Task1 – E-Commerce Price Update
-// ========================================
-
-/*
-Description:
+### Description  
 A store wants to apply a 10% discount to all products.
-*/
 
+### JavaScript
+```
 const prices = [1200, 800, 1500, 2000];
 
-// Requirement:
-// Use map() to generate a new array with discounted prices.
+const discountedPrices = prices.map(price => price * 0.9);
 
-// Expected Output:
-// [1080, 720, 1350, 1800]
+console.log(discountedPrices);
+```
 
+### Expected Output
+```
+[1080, 720, 1350, 1800]
+```
 
+---
 
-// ========================================
-// Task2 – Online Order Filtering
-// ========================================
+# Task 2  
+## Online Order Filtering
 
-/*
-Description:
-An e-commerce platform wants to show only orders above ₹1000.
-*/
+### Description  
+Show only orders greater than ₹1000.
 
+### JavaScript
+```
 const orders = [450, 1200, 700, 3000, 1500];
 
-// Requirement:
-// Use filter() to return orders greater than 1000.
+const filteredOrders = orders.filter(order => order > 1000);
 
-// Expected Output:
-// [1200, 3000, 1500]
+console.log(filteredOrders);
+```
 
+### Expected Output
+```
+[1200, 3000, 1500]
+```
 
+---
 
-// ========================================
-// Task3 – Shopping Cart Total
-// ========================================
+# Task 3  
+## Shopping Cart Total
 
-/*
-Description:
-Calculate the total value of a customer’s shopping cart.
-*/
+### Description  
+Calculate total cart value.
 
+### JavaScript
+```
 const cart = [500, 1200, 800, 1500];
 
-// Requirement:
-// Use reduce() to find the total price.
+const total = cart.reduce((sum, item) => sum + item, 0);
 
-// Expected Output:
-// 4000
+console.log(total);
+```
 
+### Expected Output
+```
+4000
+```
 
+---
 
-// ========================================
-// Task4 – Student Grade Processing
-// ========================================
+# Task 4  
+## Student Grade Processing
 
-/*
-Description:
-A teacher wants to increase every student's mark by 5 bonus marks.
-*/
+### Description  
+Add 5 bonus marks to each student.
 
+### JavaScript
+```
 const marks = [65, 70, 80, 55, 90];
 
-// Requirement:
-// Use map() to add 5 marks to each student.
+const updatedMarks = marks.map(mark => mark + 5);
 
-// Expected Output:
-// [70, 75, 85, 60, 95]
+console.log(updatedMarks);
+```
 
+### Expected Output
+```
+[70, 75, 85, 60, 95]
+```
 
+---
 
-// ========================================
-// Task5 – Pass Students Only
-// ========================================
+# Task 5  
+## Pass Students Only
 
-/*
-Description:
-A system must display only students who scored above 50.
-*/
+### Description  
+Display students who scored above 50.
 
+### JavaScript
+```
 const marksList = [35, 67, 48, 90, 55, 30];
 
-// Requirement:
-// Use filter() to find passing students.
+const passing = marksList.filter(mark => mark > 50);
 
-// Expected Output:
-// [67, 90, 55]
+console.log(passing);
+```
+
+### Expected Output
+```
+[67, 90, 55]
+```
+
+---
+
+# Technologies Used
+
+- JavaScript  
+- Array Methods  
+- Functional Programming Concepts  
+
+---
+
+# Author
+
+Palak Gupta
