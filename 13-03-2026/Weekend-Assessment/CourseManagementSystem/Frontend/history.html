@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Enrollment History</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+<div class="layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <div class="logo">
+            📚 LibraryPro
+        </div>
+
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="courses.html">Courses</a>
+            <a href="enrollment.html">Enroll</a>
+            <a class="active" href="history.html">History</a>
+            <a href="index.html">Logout</a>
+        </nav>
+
+    </aside>
+
+    <!-- Main -->
+    <main class="main">
+
+        <div class="page-header">
+            <div>
+                <h2>Enrollment History</h2>
+                <p class="page-sub">
+                    Track all active and dropped enrollments
+                </p>
+            </div>
+        </div>
+
+        <div class="toolbar">
+            <input class="search-modern"
+                   placeholder="Search student or course..."
+                   onkeyup="searchHistory(this.value)">
+        </div>
+
+        <div class="table-wrapper">
+
+            <table class="modern-table">
+
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Student</th>
+                        <th>Course</th>
+                        <th>Enrolled</th>
+                        <th>Dropped</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody id="historyBody"></tbody>
+
+            </table>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="js/history.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Library Dashboard</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+<div class="layout">
+
+    <!-- ⭐ Sidebar -->
+    <aside class="sidebar">
+
+        <div class="logo">
+            📚 LibraryPro
+        </div>
+
+        <nav>
+            <a class="active" href="dashboard.html">Dashboard</a>
+            <a href="courses.html">Courses</a>
+            <a href="enrollment.html">Enroll</a>
+            <a href="history.html">History</a>
+            <a href="#" onclick="logout()">Logout</a>
+        </nav>
+
+    </aside>
+
+    <!-- ⭐ Main Area -->
+    <main class="main">
+
+        <!-- Topbar -->
+        <div class="topbar">
+
+            <div class="welcome">
+                <h2 id="welcomeUser"></h2>
+                <p>Here is your system overview</p>
+            </div>
+
+            <div class="profile">
+                <span id="roleTag"></span>
+            </div>
+
+        </div>
+
+        <!-- Stats Cards -->
+        <div class="stats">
+
+            <div class="stat-card blue">
+                <h4>Total Courses</h4>
+                <p id="courseCount">0</p>
+            </div>
+
+            <div class="stat-card green">
+                <h4>Total Enrollments</h4>
+                <p id="enrollCount">0</p>
+            </div>
+
+            <div class="stat-card purple">
+                <h4>Total Students</h4>
+                <p id="studentCount">0</p>
+            </div>
+
+        </div>
+
+        <!-- Info Panel -->
+        <div class="panel">
+            <h3>System Overview</h3>
+            <p>
+                Manage courses, enrollments and students efficiently using this modern
+                Library Management Dashboard.
+            </p>
+        </div>
+
+    </main>
+
+</div>
+
+<script src="js/api.js"></script>
+<script src="js/dashboard.js"></script>
+
+</body>
+</html>

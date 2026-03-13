@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Courses</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<div class="layout">
+
+<aside class="sidebar">
+    <div class="logo">📚 LibraryPro</div>
+    <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a class="active">Courses</a>
+        <a href="enrollment.html">Enroll</a>
+        <a href="history.html">History</a>
+        <a href="#" onclick="logout()">Logout</a>
+    </nav>
+</aside>
+
+<main class="main">
+
+    <div class="page-header">
+
+        <div>
+            <h2>Course Management</h2>
+            <p class="page-sub">View and manage available courses</p>
+        </div>
+
+        <button id="addBtn" class="btn-primary" onclick="openModal()">
+            + New Course
+        </button>
+
+    </div>
+
+    <div class="toolbar">
+        <input class="search-modern"
+               placeholder="Search courses..."
+               onkeyup="searchCourse(this.value)">
+    </div>
+
+    <div class="table-wrapper">
+
+        <table class="modern-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Course</th>
+                    <th>Department</th>
+                    <th>Credits</th>
+                    <th>Status</th>
+                    <th id="actionHead">Action</th>
+                </tr>
+            </thead>
+
+            <tbody id="courseBody"></tbody>
+
+        </table>
+
+    </div>
+
+</main>
+</div>
+
+<!-- MODAL -->
+<div id="modal" class="modal-overlay">
+    <div class="modal-modern">
+        <h3>Add New Course</h3>
+
+        <input id="name" placeholder="Course Name">
+        <input id="dept" placeholder="Department ID">
+        <input id="credits" placeholder="Credits">
+
+        <div class="modal-actions">
+            <button class="btn-primary" onclick="addCourse()">Save</button>
+            <button class="btn-light" onclick="closeModal()">Cancel</button>
+        </div>
+    </div>
+</div>
+
+<script src="js/api.js"></script>
+<script src="js/courses.js"></script>
+
+</body>
+</html>

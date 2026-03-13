@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Enrollments</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+<div class="layout">
+
+<aside class="sidebar">
+    <div class="logo">📚 LibraryPro</div>
+
+    <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="courses.html">Courses</a>
+        <a class="active">Enroll</a>
+        <a href="history.html">History</a>
+        <a href="index.html">Logout</a>
+    </nav>
+</aside>
+
+<main class="main">
+
+<div class="page-header">
+
+<div>
+<h2>Enrollment Management</h2>
+<p class="page-sub">Enroll students into available courses</p>
+</div>
+
+<button class="btn-primary" onclick="openModal()">
++ New Enrollment
+</button>
+
+</div>
+
+<div class="toolbar">
+<input class="search-modern"
+placeholder="Search enrollment..."
+onkeyup="searchEnroll(this.value)">
+</div>
+
+<div class="table-wrapper">
+
+<table class="modern-table">
+
+<thead>
+<tr>
+<th>ID</th>
+<th>Student</th>
+<th>Course</th>
+<th>Date</th>
+<th>Status</th>
+<th>Action</th>
+</tr>
+</thead>
+
+<tbody id="enrollBody"></tbody>
+
+</table>
+
+</div>
+
+</main>
+</div>
+
+<!-- MODAL -->
+<div id="modal" class="modal-overlay">
+<div class="modal-modern">
+
+<h3>New Enrollment</h3>
+
+<select id="studentSelect" class="modern-input"></select>
+<select id="courseSelect" class="modern-input"></select>
+
+<button class="btn-primary full" onclick="addEnrollment()">
+Enroll Student
+</button>
+
+<button class="btn-light full" onclick="closeModal()">
+Cancel
+</button>
+
+</div>
+</div>
+
+<script src="js/enrollment.js"></script>
+
+</body>
+</html>

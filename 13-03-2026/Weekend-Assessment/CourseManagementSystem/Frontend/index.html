@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Library Management System - Login</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- LEFT IMAGE -->
+    <div class="left-panel">
+        <div class="overlay">
+            <h1>Library Management</h1>
+            <p>Manage books, members & operations seamlessly.</p>
+        </div>
+    </div>
+
+    <!-- RIGHT LOGIN -->
+    <div class="right-panel">
+        <div class="login-card">
+
+            <h2>Welcome Back</h2>
+            <p class="subtitle">Please login to continue</p>
+
+            <!-- EMAIL -->
+            <div class="form-group">
+                <input type="text" id="email" placeholder="Email Address">
+            </div>
+
+            <!-- PASSWORD -->
+            <div class="form-group password-wrapper">
+                <input type="password" id="password" placeholder="Password">
+                <span class="toggle-password" onclick="togglePassword()">👁</span>
+            </div>
+
+            <!-- ⭐ ROLE (ONLY ONE DROPDOWN) -->
+            <div class="form-group">
+                <select id="role" class="modern-input">
+                    <option value="">Select Role</option>
+                    <option value="Admin">Admin</option>
+                    <option value="Student">Student</option>
+                </select>
+            </div>
+
+            <!-- LOGIN BUTTON -->
+            <button onclick="login()">Login</button>
+
+            <div id="error" class="error-box"></div>
+
+        </div>
+    </div>
+
+</div>
+
+<script src="js/api.js"></script>
+<script src="js/login.js"></script>
+
+</body>
+</html>
