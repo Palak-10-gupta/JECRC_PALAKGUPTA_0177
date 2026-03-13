@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Weekend_Assignment", "Weekend_Assignment", "{344E2FC8-A589-B368-27F6-83751538B49B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1_StudentEligibilityValidationSystem", "Weekend_Assignment\Task1_StudentEligibilityValidationSystem\Task1_StudentEligibilityValidationSystem.csproj", "{F45E4E99-3770-A6DC-9D3B-28BD3CD0EB72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F45E4E99-3770-A6DC-9D3B-28BD3CD0EB72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F45E4E99-3770-A6DC-9D3B-28BD3CD0EB72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F45E4E99-3770-A6DC-9D3B-28BD3CD0EB72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F45E4E99-3770-A6DC-9D3B-28BD3CD0EB72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F45E4E99-3770-A6DC-9D3B-28BD3CD0EB72} = {344E2FC8-A589-B368-27F6-83751538B49B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC6B9CD5-EE1C-41C9-986E-E626A3BF3ABF}
+	EndGlobalSection
+EndGlobal
