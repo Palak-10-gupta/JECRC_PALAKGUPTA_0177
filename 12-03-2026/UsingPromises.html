@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Module Promise</title>
+<style>
+.pending{color:orange}
+.fulfilled{color:green}
+.rejected{color:red}
+</style>
+</head>
+
+<body>
+
+<h2>Calculation</h2>
+
+<input id="num1" type="number" placeholder="Number 1"><br><br>
+<input id="num2" type="number" placeholder="Number 2"><br><br>
+
+<button onclick="claculate()">Run</button>
+
+<h3 id="state">State: Idle</h3>
+
+<p id="addResult"></p>
+<p id="subtractResult"></p>
+<p id="multiplyResult"></p>
+<p id="divideResult"></p>
+
+<script type="module">    
+const Utils =`
+export const PI = 3.14159;
+export function add(a,b){ return a+b; }
+export function subtract(a,b){ return a-b; }
+export function multiply(a,b){ return a*b; }
+export function divide(a,b){
+if(b===0){ throw new Error('Cannot divide by zero'); }
+return a/b;
+}
+`;
+
+const blob = new Blob([Utils],{type:'text/javascript'});
+const url = URL.createObjectURL(blob);
+
+import(url).then(module=>{
+window.claculate=function(){
+
+const a = Number(document.getElementById('num1').value);
+const b = Number(document.getElementById('num2').value);
+
+const state = document.getElementById('state');
+
+const p = new Promise((resolve,reject)=>{
+
+state.innerText="State: Pending...";
+state.className="pending";
+
+setTimeout(()=>{
+
+if(isNaN(a)||isNaN(b)){
+reject("Invalid input");
+}
+else{
+resolve({
+add:module.add(a,b),
+subtract:module.subtract(a,b),
+multiply:module.multiply(a,b),
+divide:module.divide(a,b)
+});
+}
+
+},2000);
+
+});
+
+p.then(r=>{
+state.innerText="State: Fulfilled";
+state.className="fulfilled";
+
+addResult.innerText="Add: "+r.add;
+subtractResult.innerText="Subtract: "+r.subtract;
+multiplyResult.innerText="Multiply: "+r.multiply;
+divideResult.innerText="Divide: "+r.divide;
+
+}).catch(e=>{
+state.innerText="State: Rejected";
+state.className="rejected";
+alert(e);
+});
+
+}
+});
+</script>
+
+</body>
+</html>

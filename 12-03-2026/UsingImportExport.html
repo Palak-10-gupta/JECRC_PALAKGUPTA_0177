@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dynamic Import Module</title>
+
+<style>
+body{
+font-family: Arial;
+padding:40px;
+}
+
+.box{
+border:1px solid #ccc;
+padding:20px;
+width:420px;
+border-radius:8px;
+}
+
+input{
+padding:6px;
+margin:5px;
+width:80px;
+}
+
+button{
+padding:6px 12px;
+margin-top:10px;
+}
+
+.result{
+margin-top:10px;
+color:blue;
+font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Using Import / Export in JavaScript</h1>
+
+<div class="box">
+
+Number 1: <input type="number" id="num1"><br>
+Number 2: <input type="number" id="num2"><br>
+
+<button id="runBtn">Run</button>
+
+<div id="output" class="result"></div>
+
+</div>
+
+<!-- ✅ YOUR ORIGINAL MODULE SCRIPT (UNCHANGED) -->
+<script type="module">
+    //using Import/Export Project 1 (Utils module)
+    const Utils = ` 
+        export const PI = 3.14159;
+        export function add(a,b){
+        return a+b;
+        }
+        export function subtract(a,b){
+        return a-b;
+        }
+        export function multiply(a,b){
+        return a*b;
+        }
+        export function divide(a,b){
+        if(b == 0){
+        throw new Error('Cannot divide by zero');
+        }
+        return a/b;
+        }
+        `;
+    const blob = new Blob([Utils],{ type: 'text/javascript'});
+    const url = URL.createObjectURL(blob);
+
+    //Dynamically import the Utils module app.js
+    import(url).then(module => {
+        console.log('PI:', module.PI);
+        console.log('Add:', module.add(5,3));
+        console.log('Subtract:', module.subtract(5,3));
+        console.log('Multiply:', module.multiply(5,3));
+        console.log('Divide:', module.divide(5,3));
+    }).catch(error => {
+        console.error('Error loading module:', error);
+    });
+</script>
+
+<!-- ✅ EXTRA SCRIPT FOR BUTTON + INPUT + DISPLAY -->
+<script>
+
+let loadedModule = null;
+const output = document.getElementById("output");
+
+// capture module from console log execution
+const originalLog = console.log;
+console.log = function(...args){
+originalLog.apply(console,args);
+};
+
+// Load module again for UI use
+(async function(){
+const Utils = `
+export const PI = 3.14159;
+export function add(a,b){ return a+b; }
+export function subtract(a,b){ return a-b; }
+export function multiply(a,b){ return a*b; }
+export function divide(a,b){
+if(b==0){ throw new Error('Cannot divide by zero'); }
+return a/b;
+}`;
+const blob = new Blob([Utils],{type:'text/javascript'});
+const url = URL.createObjectURL(blob);
+loadedModule = await import(url);
+})();
+
+document.getElementById("runBtn").onclick = function(){
+
+if(!loadedModule){
+output.innerHTML = "Module not loaded yet";
+return;
+}
+
+const a = Number(document.getElementById("num1").value);
+const b = Number(document.getElementById("num2").value);
+
+try{
+
+output.innerHTML =
+`PI = ${loadedModule.PI} <br>
+Add = ${loadedModule.add(a,b)} <br>
+Subtract = ${loadedModule.subtract(a,b)} <br>
+Multiply = ${loadedModule.multiply(a,b)} <br>
+Divide = ${loadedModule.divide(a,b)}`;
+
+}catch(e){
+output.innerHTML = e.message;
+}
+
+};
+
+</script>
+
+</body>
+</html>
