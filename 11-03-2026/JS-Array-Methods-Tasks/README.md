@@ -1,4 +1,4 @@
-# 📘 JavaScript Array Methods Practice Tasks (Questions 16–20)
+# JavaScript Array Methods Tasks
 
 This repository contains practice questions based on important JavaScript array methods:
 
