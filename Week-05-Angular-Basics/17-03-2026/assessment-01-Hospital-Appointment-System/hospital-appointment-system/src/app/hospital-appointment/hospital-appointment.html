@@ -1,0 +1,86 @@
+<div class="card">
+
+<h2>🏥 Hospital Appointment Booking</h2>
+
+<div class="form-group">
+<label>Patient Name <span class="req">*</span></label>
+<input type="text" [(ngModel)]="patientName" name="patientName" placeholder="Enter patient name">
+</div>
+
+<div class="form-group">
+<label>Select Doctor <span class="req">*</span></label>
+<select [(ngModel)]="doctor" name="doctor">
+<option value="">-- Choose Specialist --</option>
+<option value="Dr Sharma">🫀 Dr Sharma – Cardiologist</option>
+<option value="Dr Mehta">🧴 Dr Mehta – Dermatologist</option>
+<option value="Dr Khan">🩺 Dr Khan – General Physician</option>
+<option value="Dr Roy">🧠 Dr Roy – Neurologist</option>
+</select>
+</div>
+
+<div class="form-group">
+<label>Appointment Date <span class="req">*</span></label>
+<input type="date"
+[(ngModel)]="appointmentDate"
+name="appointmentDate"
+[min]="today">
+</div>
+
+<div class="form-group">
+<label>Consultation Mode <span class="req">*</span></label>
+
+<div class="radio-group">
+<label class="mode online">
+<input type="radio"
+value="Online"
+name="consultationType"
+[(ngModel)]="consultationType"
+(change)="calculateFee()"> 💻 Online
+</label>
+
+<label class="mode offline">
+<input type="radio"
+value="Offline"
+name="consultationType"
+[(ngModel)]="consultationType"
+(change)="calculateFee()"> 🏥 Offline
+</label>
+</div>
+
+</div>
+
+<div class="form-group">
+<label>Symptoms</label>
+<textarea [(ngModel)]="symptoms" name="symptoms" placeholder="Describe symptoms"></textarea>
+</div>
+
+<hr>
+
+<h3>📋 Appointment Summary</h3>
+
+<div class="summary">
+<p><b>Patient:</b> {{patientName || '-'}}</p>
+<p><b>Doctor:</b> {{doctor || '-'}}</p>
+<p><b>Date:</b> {{appointmentDate || '-'}}</p>
+<p><b>Consultation:</b> {{consultationType || '-'}}</p>
+
+<p class="fee">Consultation Fee: ₹{{fee}}</p>
+
+<p><b>Symptoms:</b> {{symptoms || '-'}}</p>
+</div>
+
+<p class="success" *ngIf="confirmed">
+✅ Appointment Confirmed Successfully
+</p>
+
+<button type="button" class="btn"
+(click)="confirmBooking()">
+Book Appointment
+</button>
+
+<button type="button" class="reset"
+(click)="resetForm()">
+Reset Form
+</button>
+
+</div>
