@@ -1,39 +1,43 @@
 # 🏥 Hospital Appointment Booking System (Angular)
 
-A simple and responsive **Hospital Appointment Booking Web Application** built using **Angular Standalone Components** and **Template-Driven Forms**.
+A simple, responsive and user-friendly **Hospital Appointment Booking Web Application** built using **Angular Standalone Components** and **Template-Driven Forms**.
 
-This project allows patients to book doctor appointments easily with real-time appointment summary and validation features.
+This application allows patients to easily book doctor appointments with **real-time summary display, dynamic fee calculation and smart validation features**.
 
 ---
 
-## 🚀 Features
+## 🚀 Core Features
 
-✅ Enter Patient Name
-✅ Select Doctor from Specialist Dropdown
-✅ Choose Appointment Date
-✅ Select Consultation Mode (Online / Offline)
-✅ Enter Symptoms Description
-✅ Live Appointment Summary Display
-✅ Dynamic Consultation Fee Calculation
+* ✅ Enter Patient Name
+* ✅ Select Doctor from Specialist Dropdown
+* ✅ Choose Appointment Date
+* ✅ Select Consultation Mode (Online / Offline)
+* ✅ Enter Symptoms Description
+* ✅ Live Appointment Summary Display
+* ✅ Dynamic Consultation Fee Calculation
 
-### 💰 Consultation Fee Logic
+---
+
+## 💰 Consultation Fee Logic
 
 * 💻 Online Consultation → **₹300**
 * 🏥 Offline Consultation → **₹500**
+
+Fee updates automatically based on selected consultation mode.
 
 ---
 
 ## ⭐ Bonus Features Implemented
 
-✨ Past Dates Disabled in Date Picker
-✨ Mandatory Fields Marked with Red `*`
-✨ Confirmation Message on Successful Booking
-✨ Reset Form Option
-✨ Professional Card-Based UI Design
-✨ Hover Effects & Input Focus Styling
-✨ Icons for Better User Experience
-✨ Smart Summary Placeholders (`-` when empty)
-✨ Validation Alert if Required Fields Not Filled
+* ✨ Past dates disabled in Date Picker
+* ✨ Mandatory fields clearly marked with **red (*)**
+* ✨ Confirmation message displayed on successful booking
+* ✨ Reset form option to clear all inputs
+* ✨ Professional **card-based UI design**
+* ✨ Smooth hover effects & input focus styling
+* ✨ Icons used for improved user experience
+* ✨ Smart appointment summary placeholders (`-` shown when fields are empty)
+* ✨ Validation alert if required fields are not filled
 
 ---
 
@@ -41,49 +45,45 @@ This project allows patients to book doctor appointments easily with real-time a
 
 * Standalone Components
 * Template-Driven Forms (`FormsModule`)
-* Structural Directive (`*ngIf`)
 * Two-Way Data Binding (`[(ngModel)]`)
 * Event Binding (`(click)`, `(change)`)
-* Property Binding (`[min]`)
+* Property Binding (`[min]` for date validation)
+* Structural Directive (`*ngIf`)
 * Conditional Rendering
-* Dynamic Fee Logic
+* Dynamic Business Logic Implementation
 
 ---
 
-## 🎯 Learning Outcome
+## 🎯 Learning Outcomes
 
-This project demonstrates:
-
-* Form Handling in Angular
-* Real-Time UI Updates
-* Input Validation & User Feedback
-* Clean Component Architecture
-* Professional UI Styling using CSS
+* Practical understanding of **Angular form handling**
+* Real-time UI updates using data binding
+* Input validation and user feedback techniques
+* Implementation of dynamic logic based on user selection
+* Clean and modular Angular component architecture
+* Professional UI styling using modern CSS
 
 ---
 
 ## ▶️ How to Run the Project
 
+### Step 1 — Install Dependencies
+
 ```bash
 npm install
+```
+
+### Step 2 — Run Angular Server
+
+```bash
 ng serve
 ```
 
-Then open browser:
+### Step 3 — Open in Browser
 
 ```
 http://localhost:4200
 ```
-
----
-
-## 📌 Future Improvements
-
-* Add Reactive Form Version
-* Add Appointment List Table
-* Add Backend API Integration
-* Add Login Authentication
-* Add Doctor Availability Slots
 
 ---
 
