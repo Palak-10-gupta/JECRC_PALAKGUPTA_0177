@@ -1,0 +1,42 @@
+<h2 class="title">🎓 Student Result Dashboard</h2>
+
+<div class="table-container">
+
+  <table>
+
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Marks</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr *ngFor="let s of students; let i = index"
+          [appStatusColor]="s.marks">
+
+        <td>{{ i + 1 }}</td>
+
+        <td>{{ s.name }}</td>
+
+        <td>{{ s.marks }}</td>
+
+        <td>
+          <span class="badge"
+                [ngClass]="s.marks >= 50 ? 'pass' : 'fail'">
+
+            {{ getStatus(s.marks) }}
+
+          </span>
+        </td>
+
+      </tr>
+
+    </tbody>
+
+  </table>
+
+</div>
