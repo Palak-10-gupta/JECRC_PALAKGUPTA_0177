@@ -1,0 +1,119 @@
+body{
+  background:#f4f6f9;
+}
+
+.title{
+  text-align:center;
+  margin:25px 0;
+  font-size:32px;
+  color:#2c3e50;
+}
+
+
+.stats{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  margin-bottom:25px;
+}
+
+.stat-card{
+  background:white;
+  padding:20px 40px;
+  border-radius:12px;
+  box-shadow:0 6px 18px rgba(0,0,0,0.15);
+  text-align:center;
+}
+
+.stat-card h3{
+  margin:0;
+  font-size:18px;
+}
+
+.stat-card p{
+  font-size:28px;
+  font-weight:bold;
+}
+
+.total{border-top:5px solid #3498db;}
+.pass{border-top:5px solid green;}
+.fail{border-top:5px solid red;}
+
+
+.table-container{
+  width:90%;
+  margin:auto;
+  background:white;
+  padding:25px;
+  border-radius:12px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+  text-align:center;
+}
+
+th{
+  background:#34495e;
+  color:white;
+  padding:14px;
+}
+
+td{
+  padding:12px;
+  border-bottom:1px solid #ddd;
+}
+
+tr:hover{
+  background:#f1f1f1;
+}
+
+.topper-row{
+  background:linear-gradient(90deg,#fff3b0,#ffe066);
+  font-weight:bold;
+}
+
+
+.badge{
+  padding:5px 12px;
+  border-radius:20px;
+  color:white;
+  font-size:13px;
+}
+
+.pass-badge{background:green;}
+.fail-badge{background:red;}
+
+
+.grade{
+  padding:6px 12px;
+  border-radius:8px;
+  color:white;
+  font-weight:bold;
+}
+
+.grade-a{background:#27ae60;}
+.grade-b{background:#2980b9;}
+.grade-c{background:#f39c12;}
+.grade-f{background:#c0392b;}
+
+
+.progress{
+  width:100%;
+  background:#ecf0f1;
+  height:12px;
+  border-radius:10px;
+}
+
+.bar{
+  height:12px;
+  background:linear-gradient(90deg,#2ecc71,#27ae60);
+  border-radius:10px;
+}
+
+
+.crown{
+  margin-left:5px;
+}

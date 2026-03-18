@@ -1,0 +1,99 @@
+<h2 class="title">🎓 Student Performance Dashboard</h2>
+
+<!--  DASHBOARD STATS -->
+<div class="stats">
+
+  <div class="stat-card total">
+    <h3>Total Students</h3>
+    <p>{{students.length}}</p>
+  </div>
+
+  <div class="stat-card pass">
+    <h3>Pass Students</h3>
+    <p>{{students.filter(s => s.marks >= 50).length}}</p>
+  </div>
+
+  <div class="stat-card fail">
+    <h3>Fail Students</h3>
+    <p>{{students.filter(s => s.marks < 50).length}}</p>
+  </div>
+
+</div>
+
+<!-- TABLE -->
+<div class="table-container">
+
+  <table>
+
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Marks</th>
+        <th>Performance</th>
+        <th>Status</th>
+        <th>Grade</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr *ngFor="let s of students; let i=index"
+          [ngClass]="{'topper-row': s.marks >= 85}">
+
+        <td>{{i+1}}</td>
+
+        <td>
+          {{s.name}}
+          <span *ngIf="s.marks >= 85" class="crown">👑</span>
+        </td>
+
+        <td>{{s.marks}}</td>
+
+        <!-- PROGRESS BAR -->
+        <td>
+          <div class="progress">
+            <div class="bar"
+                 [ngStyle]="{'width': s.marks + '%'}">
+            </div>
+          </div>
+        </td>
+
+        <!-- STATUS -->
+        <td>
+          <span *ngIf="s.marks >= 50; else failBlock"
+                class="badge pass-badge">
+                PASS
+          </span>
+
+          <ng-template #failBlock>
+            <span class="badge fail-badge">
+              FAIL
+            </span>
+          </ng-template>
+        </td>
+
+        <!-- GRADE COLUMN -->
+        <td>
+
+          <span class="grade"
+                [ngClass]="{
+                  'grade-a': getGrade(s.marks) === 'A',
+                  'grade-b': getGrade(s.marks) === 'B',
+                  'grade-c': getGrade(s.marks) === 'C',
+                  'grade-f': getGrade(s.marks) === 'F'
+                }">
+
+                {{ getGrade(s.marks) }}
+
+          </span>
+
+        </td>
+
+      </tr>
+
+    </tbody>
+
+  </table>
+
+</div>
