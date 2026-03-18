@@ -1,0 +1,47 @@
+<h2 class="title">⚙ Feature Access Dashboard</h2>
+
+<div class="control">
+  <button class="toggle"
+          (click)="toggleAccess()">
+
+    {{ allowAccess ? 'Disable Access' : 'Enable Access' }}
+
+  </button>
+
+  <p>Status:
+    <span [ngClass]="allowAccess ? 'on' : 'off'">
+      {{ allowAccess ? 'Access Allowed' : 'Access Blocked' }}
+    </span>
+  </p>
+</div>
+
+<div class="container">
+
+  <div class="card">
+    <h3>Generate Report</h3>
+    <button 
+            [appClickBlock]="allowAccess"
+            (click)="performAction('Report')">
+      Run
+    </button>
+  </div>
+
+  <div class="card">
+    <h3>Delete Record</h3>
+    <button 
+            [appClickBlock]="allowAccess"
+            (click)="performAction('Delete')">
+      Delete
+    </button>
+  </div>
+
+  <div class="card">
+    <h3>Export Data</h3>
+    <button 
+            [appClickBlock]="allowAccess"
+            (click)="performAction('Export')">
+      Export
+    </button>
+  </div>
+
+</div>
