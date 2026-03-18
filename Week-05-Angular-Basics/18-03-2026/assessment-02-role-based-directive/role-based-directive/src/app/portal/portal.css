@@ -1,0 +1,94 @@
+/* Page */
+body{
+  background:#f4f6f9;
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0;
+}
+
+/* Title */
+.title{
+  text-align:center;
+  margin-top:30px;
+  font-size:38px;
+  color:#2c3e50;
+}
+
+/* Login buttons */
+.login-bar{
+  text-align:center;
+  margin:20px 0;
+}
+
+.btn{
+  margin:0 10px;
+  padding:10px 26px;
+  border:none;
+  border-radius:25px;
+  color:white;
+  font-size:15px;
+  cursor:pointer;
+  transition:0.25s;
+}
+
+.admin-btn{
+  background:#2e8b57;
+}
+
+.student-btn{
+  background:#e67e22;
+}
+
+.active{
+  transform:scale(1.08);
+  box-shadow:0 0 0 3px rgba(0,0,0,0.12);
+}
+
+/* Role text */
+.role-info{
+  text-align:center;
+  margin-bottom:10px;
+  color:#555;
+}
+
+/* Section title */
+.section-title{
+  text-align:center;
+  margin:25px 0 10px 0;
+  color:#2c3e50;
+}
+
+/* ⭐ DASHBOARD GRID (IMPORTANT FIX) */
+.dashboard{
+  width:85%;
+  margin:30px auto;
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap:28px;
+}
+
+/* Card */
+.card{
+  background:white;
+  padding:45px 20px;
+  border-radius:14px;
+  text-align:center;
+  font-size:18px;
+  box-shadow:0 10px 22px rgba(0,0,0,0.15);
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-10px) scale(1.03);
+}
+
+/* Common feature */
+.common{
+  border-top:6px solid #3498db;
+  background:#eef6ff;
+}
+
+/* Admin feature */
+.admin{
+  border-top:6px solid #e67e22;
+  background:#fff3e6;
+}

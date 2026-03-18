@@ -1,0 +1,39 @@
+<h2 class="title">College Portal</h2>
+
+<div class="login-bar">
+  <button class="btn admin-btn"
+          [class.active]="role==='admin'"
+          (click)="loginAdmin()">Admin Login</button>
+
+  <button class="btn student-btn"
+          [class.active]="role==='student'"
+          (click)="loginStudent()">Student Login</button>
+</div>
+
+<p class="role-info">
+  Logged in as: <strong>{{role | titlecase}}</strong>
+</p>
+
+
+<div class="dashboard">
+
+  <div class="card common">Dashboard Overview</div>
+  <div class="card common">Academic Calendar</div>
+  <div class="card common">View Attendance</div>
+
+  <div class="card admin"
+       *appRoleBased="role === 'admin'">
+    Manage Students
+  </div>
+
+  <div class="card admin"
+       *appRoleBased="role === 'admin'">
+    Assign Faculty
+  </div>
+
+  <div class="card admin"
+       *appRoleBased="role === 'admin'">
+    Generate Reports
+  </div>
+
+</div>
