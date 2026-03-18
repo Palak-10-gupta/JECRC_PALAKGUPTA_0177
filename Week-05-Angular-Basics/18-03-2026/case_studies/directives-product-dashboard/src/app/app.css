@@ -1,0 +1,12 @@
+.high-price{
+  color: red;
+}
+
+.low-price{
+  color: green;
+}
+
+.line-cut{
+  text-decoration: line-through;
+  opacity: 0.6;
+}
