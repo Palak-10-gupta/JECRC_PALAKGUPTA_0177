@@ -1,0 +1,22 @@
+<h2 class="title">🛒 Product Price Dashboard</h2>
+
+<div class="container">
+
+  <div class="card"
+       *ngFor="let p of products"
+       appPriceHighlight
+       [price]="p.price">
+
+    <h3>{{p.name}}</h3>
+    <p class="price">₹ {{p.price}}</p>
+
+    <span class="tag"
+          [ngClass]="p.price > 50000 ? 'high' : 'normal'">
+
+          {{ p.price > 50000 ? 'High Value' : 'Normal' }}
+
+    </span>
+
+  </div>
+
+</div>
