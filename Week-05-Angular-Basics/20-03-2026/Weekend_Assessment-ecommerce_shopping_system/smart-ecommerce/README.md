@@ -1,59 +1,166 @@
-# SmartEcommerce
+# 🛒 Smart E-Commerce Shopping System (Angular)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.2.
+A modern **Single Page E-Commerce Web Application** built using **Angular Standalone Components**.
 
-## Development server
+This project demonstrates real-time cart operations, dynamic data binding, conditional UI rendering, and full user input collection as required in the assessment.
 
-To start a local development server, run:
+---
+
+## 🚀 Live Features
+
+✅ Product browsing with search & category filter
+✅ Add to cart with quantity management
+✅ Real-time cart total calculation
+✅ Fully dynamic checkout form
+✅ Conditional payment fields
+✅ Multiple address input
+✅ Customer analytics dashboard
+✅ Single Page Application (No page reload)
+
+---
+
+## 🧩 Components Used
+
+| Component               | Purpose                                     |
+| ----------------------- | ------------------------------------------- |
+| **Product Component**   | Displays products & allows selection        |
+| **Cart Component**      | Manages selected items & totals             |
+| **Checkout Component**  | Collects full customer & payment data       |
+| **Dashboard Component** | Shows customer analytics (optional feature) |
+
+---
+
+## 🛍️ Product Management Module
+
+* Product Name
+* Price
+* Category
+* Rating
+* Product Image
+
+### User Actions
+
+* Add product to cart
+* Select quantity
+* Filter by category
+* Search product
+
+---
+
+## 🛒 Cart Management Module
+
+* View selected products
+* Increase / decrease quantity
+* Remove product
+* Clear entire cart
+* Real-time grand total calculation
+
+> UI updates instantly without page refresh.
+
+---
+
+## 🧾 Checkout Module (Full Data Collection)
+
+### Customer Inputs Included
+
+* Full Name (Text Input)
+* Address Line
+* Email (Validation Input)
+* Phone Number (Number Input)
+* ZIP Code
+* Gender (Radio Buttons)
+* Delivery Type (Standard / Express)
+* Accept Terms (Checkbox)
+* Subscribe Offers (Checkbox)
+* City (Dropdown)
+* State & Country
+* Delivery Date (Date Picker)
+* Additional Instructions (Textarea)
+* Upload ID Proof (File Input)
+
+### Dynamic Features
+
+* Add Multiple Addresses
+* Conditional Payment Fields
+
+---
+
+## 💳 Payment Methods
+
+* Credit Card
+* Debit Card
+* UPI
+* Cash on Delivery
+
+### Conditional Inputs
+
+* Card → Card Number, Expiry Date, CVV
+* UPI → UPI ID
+* COD → Delivery message
+
+---
+
+## 📊 Customer Dashboard (Optional Feature)
+
+* Items in cart
+* Cart value
+* Continue shopping shortcut
+* Checkout navigation
+
+---
+
+## ⚡ Technical Concepts Demonstrated
+
+* Angular Standalone Components
+* Two-way Data Binding (`ngModel`)
+* Structural Directives (`*ngIf`, `*ngFor`)
+* Service-based State Management
+* Signals for SPA Navigation
+* Real-time UI Updates
+* Dynamic Form Rendering
+
+---
+
+## 🛠️ Tech Stack
+
+* Angular
+* TypeScript
+* HTML5
+* CSS3
+
+---
+
+## ▶️ How to Run Project
 
 ```bash
+npm install
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Open in browser:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🎯 Learning Outcome
 
-## Building
+This project demonstrates how to build a **complete SPA E-Commerce workflow** including:
 
-To build the project run:
+* Product listing
+* Cart logic
+* Checkout form design
+* Payment UI logic
+* State management
+* Professional UI development
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 👩‍💻 Developed By
 
-## Running unit tests
+**Palak Gupta**
+---
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+⭐ If you like this project, give it a star on GitHub.
