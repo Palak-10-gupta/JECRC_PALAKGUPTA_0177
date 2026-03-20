@@ -1,0 +1,48 @@
+<h2 class="dash-title">📊 Your Shopping Dashboard</h2>
+
+<div class="dash-grid">
+
+  <!-- CART ITEMS -->
+  <div class="dash-card blue"
+       (click)="changePage('cart')">
+    <h3>Items in Cart</h3>
+    <p>{{cart.items().length}}</p>
+    <span>Click to view</span>
+  </div>
+
+  <!-- CART VALUE -->
+  <div class="dash-card green"
+       (click)="changePage('cart')">
+    <h3>Total Cart Value</h3>
+    <p>₹ {{cart.total()}}</p>
+    <span>Review items</span>
+  </div>
+
+  <!-- CONTINUE SHOPPING -->
+  <div class="dash-card purple"
+       (click)="changePage('product')">
+    <h3>Browse Products</h3>
+    <p>Shop More</p>
+    <span>Explore catalog</span>
+  </div>
+
+  <!-- READY TO ORDER -->
+  <div class="dash-card orange"
+       (click)="changePage('checkout')">
+    <h3>Proceed to Checkout</h3>
+    <p>Complete Order</p>
+    <span>Fill details</span>
+  </div>
+
+</div>
+
+<!-- TIPS SECTION -->
+<div class="tips">
+<h3>💡 Shopping Tips</h3>
+<ul>
+<li>Use filters to find products quickly</li>
+<li>Select correct quantity before adding to cart</li>
+<li>Check delivery mode before placing order</li>
+<li>Review cart total before checkout</li>
+</ul>
+</div>

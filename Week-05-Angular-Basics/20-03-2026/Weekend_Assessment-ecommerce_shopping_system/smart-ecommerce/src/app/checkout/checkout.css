@@ -1,0 +1,122 @@
+.checkout-title{
+text-align:center;
+margin-bottom:22px;
+font-size:26px;
+color:#203a43;
+font-weight:600;
+}
+
+/* main card */
+.checkout-card{
+background:white;
+max-width:520px;
+margin:auto;
+padding:32px;
+border-radius:16px;
+box-shadow:0 10px 28px rgba(0,0,0,0.12);
+transition:0.3s;
+}
+
+.checkout-card:hover{
+box-shadow:0 14px 35px rgba(0,0,0,0.15);
+}
+
+/* section headings */
+.section-head{
+margin-top:18px;
+margin-bottom:8px;
+color:#2c5364;
+font-weight:600;
+font-size:18px;
+}
+
+/* inputs */
+.checkout-card input,
+.checkout-card select,
+.checkout-card textarea{
+width:100%;
+padding:12px;
+margin:8px 0;
+border-radius:8px;
+border:1px solid #ddd;
+font-size:14px;
+transition:0.2s;
+background:#fafafa;
+}
+
+.checkout-card input:focus,
+.checkout-card select:focus,
+.checkout-card textarea:focus{
+outline:none;
+border:1px solid #2c5364;
+background:white;
+box-shadow:0 0 0 2px rgba(44,83,100,0.08);
+}
+
+/* radio checkbox row */
+.inline-group{
+display:flex;
+gap:30px;
+margin:12px 0;
+align-items:center;
+flex-wrap:wrap;
+}
+
+/* payment box */
+.payment-box{
+background:#f5f8fb;
+padding:12px;
+border-radius:10px;
+margin-top:6px;
+}
+
+/* button */
+.order-btn{
+width:100%;
+margin-top:18px;
+padding:13px;
+background:linear-gradient(45deg,#2c5364,#203a43);
+color:white;
+border:none;
+border-radius:10px;
+font-size:16px;
+cursor:pointer;
+transition:0.25s;
+}
+
+.order-btn:hover{
+transform:translateY(-1px);
+box-shadow:0 6px 16px rgba(0,0,0,0.15);
+}
+
+/* success message */
+.success{
+text-align:center;
+margin-top:16px;
+color:#1b8a3a;
+font-weight:600;
+font-size:17px;
+}
+
+/* error validation */
+.error{
+border:2px solid #e53935 !important;
+background:#fff5f5 !important;
+}
+/* hide default placeholder text */
+.expiry-input::-webkit-datetime-edit-text,
+.expiry-input::-webkit-datetime-edit-month-field,
+.expiry-input::-webkit-datetime-edit-day-field,
+.expiry-input::-webkit-datetime-edit-year-field{
+color:transparent;
+}
+
+/* show custom placeholder */
+.expiry-input:before{
+content:"Expiry Date";
+color:#888;
+}
+
+.expiry-input:focus:before{
+content:"";
+}

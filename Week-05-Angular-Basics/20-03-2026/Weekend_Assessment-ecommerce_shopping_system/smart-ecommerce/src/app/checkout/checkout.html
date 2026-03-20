@@ -1,0 +1,137 @@
+<h2 class="checkout-title">🧾 Checkout</h2>
+
+<div class="checkout-card">
+
+<!-- ================= CUSTOMER DETAILS ================= -->
+
+<h3 class="section-head">Customer Details</h3>
+
+<input placeholder="Full Name *" [(ngModel)]="name">
+<input placeholder="Address Line">
+
+<input type="email" placeholder="Email *" [(ngModel)]="email">
+<input type="number" placeholder="Phone Number *" [(ngModel)]="phone">
+<input type="number" placeholder="ZIP Code">
+
+<!-- DELIVERY TYPE -->
+<div class="inline-group">
+<label>
+<input type="radio" name="delivery" value="standard"
+[(ngModel)]="delivery"> Standard
+</label>
+
+<label>
+<input type="radio" name="delivery" value="express"
+[(ngModel)]="delivery"> Express
+</label>
+</div>
+
+<!-- GENDER -->
+<div class="inline-group">
+<label><input type="radio" name="gender"> Male</label>
+<label><input type="radio" name="gender"> Female</label>
+</div>
+
+<!-- TERMS -->
+<div class="inline-group">
+<label>
+<input type="checkbox" [(ngModel)]="terms"> Accept Terms *
+</label>
+
+<label>
+<input type="checkbox"> Subscribe Offers
+</label>
+</div>
+
+<!-- LOCATION -->
+<select [(ngModel)]="city">
+<option value="">Select City</option>
+<option>Jaipur</option>
+<option>Delhi</option>
+<option>Mumbai</option>
+</select>
+
+<input placeholder="State" [(ngModel)]="state">
+<input placeholder="Country" [(ngModel)]="country">
+
+<!-- DATE -->
+<input type="date">
+
+<!-- TEXTAREA -->
+<textarea placeholder="Additional Instructions"></textarea>
+
+<!-- FILE -->
+<input type="file">
+
+<!-- MULTIPLE ADDRESS -->
+<h3 class="section-head">Multiple Address</h3>
+
+<div *ngFor="let a of addresses; let i=index">
+<input placeholder="Address {{i+1}}">
+</div>
+
+<button type="button" (click)="addAddress()">Add Address</button>
+
+<!-- ================= PAYMENT ================= -->
+
+<h3 class="section-head pay-head">💳 Payment Method</h3>
+
+<div class="inline-group">
+
+<label>
+<input type="radio" value="credit" name="pay"
+[(ngModel)]="payment"> Credit Card
+</label>
+
+<label>
+<input type="radio" value="debit" name="pay"
+[(ngModel)]="payment"> Debit Card
+</label>
+
+<label>
+<input type="radio" value="upi" name="pay"
+[(ngModel)]="payment"> UPI
+</label>
+
+<label>
+<input type="radio" value="cod" name="pay"
+[(ngModel)]="payment"> Cash on Delivery
+</label>
+
+</div>
+
+<!-- CREDIT CARD -->
+<div *ngIf="payment==='credit'" class="payment-box">
+<input placeholder="Credit Card Number">
+<input type="date" class="expiry-input" placeholder="Expiry Date">
+<input placeholder="CVV">
+</div>
+
+<!-- DEBIT CARD -->
+<div *ngIf="payment==='debit'" class="payment-box">
+<input placeholder="Debit Card Number">
+<input type="date" class="expiry-input" placeholder="Expiry Date">
+<input placeholder="CVV">
+</div>
+
+<!-- UPI -->
+<div *ngIf="payment==='upi'" class="payment-box">
+<input placeholder="UPI ID">
+</div>
+
+<!-- COD -->
+<div *ngIf="payment==='cod'" class="payment-box">
+<p style="margin:0;font-weight:600;color:#2c5364">
+Pay cash at delivery 🚚
+</p>
+</div>
+
+<button type="button" class="order-btn" (click)="placeOrder()">
+Place Order
+</button>
+
+<div class="success" *ngIf="orderPlaced">
+✅ Order Placed Successfully 🎉
+</div>
+
+</div>

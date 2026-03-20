@@ -1,0 +1,38 @@
+<h2 class="title">🛍️ Product Store</h2>
+
+<div class="controls">
+<input placeholder="Search..." [(ngModel)]="search">
+
+<select [(ngModel)]="category">
+<option *ngFor="let c of categories">{{c}}</option>
+</select>
+</div>
+
+<div *ngIf="filteredProducts().length === 0" class="empty">
+No products found
+</div>
+
+<div class="grid">
+
+<div class="card" *ngFor="let p of filteredProducts()">
+
+<img [src]="p.image">
+
+<h3>{{p.name}}</h3>
+
+<p class="price">₹ {{p.price}}</p>
+
+<p class="rating">⭐ {{p.rating}}</p>
+
+<!-- QUANTITY -->
+<div class="qty">
+<button (click)="p.qty = p.qty>1 ? p.qty-1 : 1">-</button>
+<span>{{p.qty}}</span>
+<button (click)="p.qty = p.qty+1">+</button>
+</div>
+
+<button (click)="addToCart(p)">Add To Cart</button>
+
+</div>
+
+</div>

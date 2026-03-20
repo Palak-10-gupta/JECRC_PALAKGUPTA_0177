@@ -1,0 +1,47 @@
+<nav class="nav">
+
+  <div class="logo">
+    🛒 Smart E-Commerce
+  </div>
+
+  <div class="menu">
+
+    <button (click)="page.set('product')">
+      Products
+    </button>
+
+    <button class="cart-btn"
+            (click)="page.set('cart')">
+      Cart
+      <span class="badge"
+            *ngIf="cart.items().length > 0">
+        {{cart.items().length}}
+      </span>
+    </button>
+
+    <button (click)="page.set('checkout')">
+      Checkout
+    </button>
+
+    <button (click)="page.set('dashboard')">
+      Dashboard
+    </button>
+
+  </div>
+
+</nav>
+
+<div class="container">
+
+  <app-product *ngIf="page() === 'product'"></app-product>
+
+  <app-cart *ngIf="page() === 'cart'"></app-cart>
+
+  <app-checkout *ngIf="page() === 'checkout'"></app-checkout>
+
+  <app-dashboard
+    *ngIf="page() === 'dashboard'"
+    [changePage]="page.set">
+  </app-dashboard>
+
+</div>

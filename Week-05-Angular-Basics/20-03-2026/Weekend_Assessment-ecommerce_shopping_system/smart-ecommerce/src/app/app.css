@@ -1,0 +1,67 @@
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#eef2f7;
+}
+
+/* NAVBAR */
+
+.nav{
+background:linear-gradient(45deg,#0f2027,#203a43,#2c5364);
+color:white;
+padding:14px 30px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.logo{
+font-size:20px;
+font-weight:600;
+letter-spacing:0.5px;
+}
+
+/* MENU */
+
+.menu button{
+background:white;
+border:none;
+padding:8px 18px;
+margin-left:15px;
+border-radius:8px;
+cursor:pointer;
+font-weight:600;
+transition:0.2s;
+}
+
+.menu button:hover{
+background:#ffd369;
+transform:translateY(-1px);
+}
+
+/* PAGE WRAPPER */
+
+.container{
+padding:30px;
+max-width:1200px;
+margin:auto;
+}
+
+/* CART BADGE */
+
+.cart-btn{
+position:relative;
+}
+
+.badge{
+position:absolute;
+top:-6px;
+right:-8px;
+background:#ff5252;
+color:white;
+border-radius:50%;
+font-size:12px;
+padding:3px 7px;
+font-weight:bold;
+}

@@ -1,0 +1,56 @@
+<h2 class="cart-title">🛒 Shopping Cart</h2>
+
+<!-- EMPTY CART -->
+<div *ngIf="cart.items().length === 0" class="empty-cart">
+Your cart is empty
+</div>
+
+<!-- CART TABLE -->
+<table *ngIf="cart.items().length > 0" class="cart-table">
+
+<thead>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Quantity</th>
+<th>Total</th>
+<th>Action</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr *ngFor="let i of cart.items()">
+
+<td>{{i.name}}</td>
+
+<td>₹ {{i.price}}</td>
+
+<td>
+<button (click)="cart.dec(i)">-</button>
+<span class="qty">{{i.qty}}</span>
+<button (click)="cart.inc(i)">+</button>
+</td>
+
+<td>₹ {{i.price * i.qty}}</td>
+
+<td>
+<button class="remove" (click)="cart.remove(i.id)">Remove</button>
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<!-- GRAND TOTAL -->
+<h3 *ngIf="cart.items().length > 0" class="grand">
+Grand Total : ₹ {{cart.total()}}
+</h3>
+
+<button *ngIf="cart.items().length > 0"
+class="clear"
+(click)="cart.clear()">
+Clear Cart
+</button>
