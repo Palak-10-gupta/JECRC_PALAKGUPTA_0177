@@ -1,0 +1,106 @@
+/* Page */
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f5f7fb;
+  min-height: 100vh;
+  font-family: "Segoe UI", Arial, sans-serif;
+  padding: 30px 10px;
+}
+
+/* Headings */
+h2 {
+  color: #1f2937;
+  margin: 20px 0 10px;
+  font-weight: 600;
+}
+
+/* Date Box */
+:host > p {
+  background: white;
+  padding: 10px 22px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin-bottom: 25px;
+}
+
+/* ===== ORDER CARD ===== */
+.order-card {
+  width: 420px;
+  background: white;
+  padding: 20px 25px;
+  border-radius: 12px;
+  margin-bottom: 18px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  transition: 0.25s;
+}
+
+.order-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.12);
+}
+
+.order-card p {
+  margin: 6px 0;
+  color: #374151;
+}
+
+.order-card b {
+  color: #111827;
+}
+
+/* divider */
+.order-card hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin-top: 10px;
+}
+
+/* ===== PRODUCT COLOURFUL CARD ===== */
+.card {
+  width: 420px;
+  background: linear-gradient(135deg,#6366f1,#8b5cf6);
+  color: white;
+  padding: 20px;
+  border-radius: 14px;
+  margin-top: 15px;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card p:first-child {
+  font-size: 13px;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+.card p:last-child {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+/* price highlight */
+.highlight {
+  background: white;
+  color: #4f46e5;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 6px;
+}
+
+/* final custom pipe price */
+.final-price {
+  margin-top: 25px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+  text-align: center;
+}
