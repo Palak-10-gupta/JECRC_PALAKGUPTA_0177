@@ -8,14 +8,15 @@ This project demonstrates real-time cart operations, dynamic data binding, condi
 
 ## 🚀 Live Features
 
-✅ Product browsing with search & category filter
-✅ Add to cart with quantity management
-✅ Real-time cart total calculation
-✅ Fully dynamic checkout form
-✅ Conditional payment fields
-✅ Multiple address input
-✅ Customer analytics dashboard
-✅ Single Page Application (No page reload)
+* ✅ Product browsing with search functionality
+* ✅ Category based product filtering
+* ✅ Add products to cart with quantity management
+* ✅ Real-time cart total calculation
+* ✅ Dynamic checkout form with full user data collection
+* ✅ Conditional payment input fields
+* ✅ Multiple address addition feature
+* ✅ Customer analytics dashboard
+* ✅ Single Page Application behaviour (no page reload)
 
 ---
 
@@ -162,5 +163,3 @@ This project demonstrates how to build a **complete SPA E-Commerce workflow** in
 
 **Palak Gupta**
 ---
-
-⭐ If you like this project, give it a star on GitHub.
