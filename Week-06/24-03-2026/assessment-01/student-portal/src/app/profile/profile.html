@@ -1,3 +1,28 @@
-<h2>Student Profile</h2>
-<p>Name: Palak</p>
-<p>Course: Angular</p>
+<div class="profile-wrapper">
+
+  <div class="profile-card">
+
+      <div class="avatar">
+        👩‍🎓
+      </div>
+
+      <h2>{{student.name}}</h2>
+      <p class="email">{{student.email}}</p>
+
+      <div class="info">
+        <p><b>Enrolled Course :</b> {{student.course}}</p>
+      </div>
+
+      <div class="progress-box">
+        <p>Course Progress</p>
+
+        <div class="bar">
+          <div class="fill" [style.width.%]="student.progress"></div>
+        </div>
+
+        <span>{{student.progress}}%</span>
+      </div>
+
+  </div>
+
+</div>

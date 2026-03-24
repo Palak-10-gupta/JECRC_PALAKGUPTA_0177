@@ -1,9 +1,24 @@
 import { Component } from '@angular/core';
+import { RouterModule, Router } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-dashboard',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule, RouterModule],
   templateUrl: './dashboard.html',
-  styleUrl: './dashboard.css',
+  styleUrls: ['./dashboard.css']
 })
-export class Dashboard {}
+export class DashboardComponent {
+
+  constructor(private router:Router){}
+
+  goCourses(){
+    this.router.navigate(['/courses']);
+  }
+
+  goProfile(){
+    this.router.navigate(['/profile']);
+  }
+
+}

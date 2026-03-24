@@ -16,8 +16,12 @@ export class CourseDetailComponent {
 
   course:any;
 
-  constructor(private route:ActivatedRoute, private cs:CourseService){}
+  constructor(private route:ActivatedRoute, private cs:CourseService, private router:Router){}
+   
 
+goBack(){
+  this.router.navigate(['/courses']);
+}
   ngOnInit(){
     let id = Number(this.route.snapshot.paramMap.get('id'));
     this.course = this.cs.getCourseById(id);
