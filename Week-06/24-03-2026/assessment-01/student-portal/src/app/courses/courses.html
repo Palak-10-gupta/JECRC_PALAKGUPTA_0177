@@ -1,0 +1,21 @@
+<h2 class="title">All Courses</h2>
+
+<div class="grid">
+
+  <div class="card" *ngFor="let c of courseList">
+
+      <h3>{{c.name}}</h3>
+
+      <p>📅 Duration : {{c.duration}}</p>
+      <p>👨‍🏫 Trainer : Expert Faculty</p>
+      <p>📘 Level : Beginner to Advanced</p>
+
+      <p class="price">₹ {{c.fee}}</p>
+
+      <button (click)="openCourse(c.id)">
+        View Details
+      </button>
+
+  </div>
+
+</div>

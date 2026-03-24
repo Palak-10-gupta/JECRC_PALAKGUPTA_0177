@@ -1,0 +1,15 @@
+<div class="detail-wrapper" *ngIf="course">
+
+  <div class="detail-card">
+
+      <h1>{{course.name}}</h1>
+
+      <p class="info">Duration : {{course.duration}}</p>
+
+      <p class="price">Course Fee : ₹ {{course.fee}}</p>
+
+      <button routerLink="/courses">⬅ Back to Courses</button>
+
+  </div>
+
+</div>

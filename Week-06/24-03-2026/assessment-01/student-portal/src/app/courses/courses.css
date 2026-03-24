@@ -1,0 +1,40 @@
+.title{
+  text-align:center;
+  font-size:30px;
+  margin-bottom:25px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:25px;
+  padding:30px;
+}
+
+.card{
+  background:white;
+  padding:25px;
+  border-radius:16px;
+  box-shadow:0 12px 25px rgba(0,0,0,0.18);
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:scale(1.04);
+}
+
+.price{
+  font-size:22px;
+  font-weight:bold;
+  margin:15px 0;
+}
+
+button{
+  width:100%;
+  padding:12px;
+  border:none;
+  border-radius:8px;
+  background:#0d6efd;
+  color:white;
+  cursor:pointer;
+}
