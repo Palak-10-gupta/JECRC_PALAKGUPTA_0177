@@ -1,0 +1,156 @@
+<div class="bank-container">
+
+  <!-- Header -->
+  <header class="bank-header">
+    <div class="bank-brand">
+      <div class="bank-logo">NB</div>
+      <div class="bank-name">
+        <span class="bank-title">NexaBank</span>
+        <span class="bank-subtitle">Transaction Ledger</span>
+      </div>
+    </div>
+    <div class="stat-pill">
+      <span class="stat-label">Total Records</span>
+      <span class="stat-value">{{ transactions.length }}</span>
+    </div>
+  </header>
+
+  <!-- Filter -->
+  <div class="controls-bar">
+    <span class="filter-label">Filter by Date</span>
+    <div class="filter-inputs">
+
+      <input
+        type="date"
+        name="date"
+        class="date-input"
+        [(ngModel)]="selectedDate"
+        (ngModelChange)="onDateChange($event)"
+      />
+
+      <button
+        type="button"
+        class="btn-filter"
+        [disabled]="!selectedDate"
+        (click)="onFilter()"
+      >
+        Filter
+      </button>
+
+      <button
+        type="button"
+        class="btn-reset"
+        (click)="resetFilter()"
+      >
+        Clear
+      </button>
+
+    </div>
+  </div>
+
+  <!-- 🔥 ADD TRANSACTION -->
+  <div class="controls-bar">
+    <span class="filter-label">Add Transaction</span>
+
+    <div class="filter-inputs">
+
+      <!-- Date -->
+      <input
+        type="date"
+        [(ngModel)]="newTransaction.date"
+        name="newDate"
+        class="date-input"
+      />
+
+      <!-- Description -->
+      <input
+        type="text"
+        placeholder="Description"
+        [(ngModel)]="newTransaction.description"
+        name="desc"
+        class="date-input"
+      />
+
+      <!-- Type -->
+      <select
+        [(ngModel)]="newTransaction.type"
+        name="type"
+        class="date-input"
+      >
+        <option [ngValue]="0">Credit</option>
+        <option [ngValue]="1">Debit</option>
+      </select>
+
+      <!-- Amount -->
+      <input
+        type="number"
+        placeholder="Amount"
+        [(ngModel)]="newTransaction.amount"
+        name="amount"
+        class="date-input"
+      />
+
+      <!-- 🔥 FIXED BALANCE (STRING) -->
+      <input
+        type="text"
+        placeholder="Balance"
+        [(ngModel)]="newTransaction.balance"
+        name="balance"
+        class="date-input"
+      />
+
+      <!-- Add Button -->
+      <button
+        type="button"
+        class="btn-filter"
+        (click)="addTransaction()"
+      >
+        Add
+      </button>
+
+    </div>
+  </div>
+
+  <!-- Error -->
+  <div class="error-bar" *ngIf="errorMessage">
+    ⚠ {{ errorMessage }}
+  </div>
+
+  <!-- Loader -->
+  <div class="loading-overlay" *ngIf="isLoading && transactions.length === 0">
+    <div class="spinner"></div>
+    <span>Loading transactions...</span>
+  </div>
+
+  <!-- Table -->
+  <div class="table-wrapper">
+    <table class="ledger-table">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Description</th>
+          <th>Type</th>
+          <th (click)="sortByAmount()">Amount ↑</th>
+          <th>Balance</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr *ngFor="let t of transactions">
+          <td>{{ t.date }}</td>
+          <td>{{ t.description }}</td>
+          <td>{{ t.type === 0 ? 'Credit' : 'Debit' }}</td>
+          <td>{{ t.amount }}</td>
+          <td>{{ t.balance }}</td>
+        </tr>
+
+        <tr *ngIf="transactions.length === 0 && !isLoading">
+          <td colspan="5" class="no-data">
+            No transactions found
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
