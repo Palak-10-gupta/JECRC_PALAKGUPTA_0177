@@ -1,0 +1,21 @@
+<h2 class="heading">Our Products</h2>
+
+<div class="product-container">
+
+  <div class="product-card" *ngFor="let p of products">
+
+    <div class="product-name">
+      {{p.name}}
+    </div>
+
+    <div class="product-price">
+      ₹ {{p.price}}
+    </div>
+
+    <button class="add-btn" (click)="addToCart(p)">
+      Add To Cart
+    </button>
+
+  </div>
+
+</div>

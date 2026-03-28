@@ -1,0 +1,13 @@
+<h2 class="heading">My Cart</h2>
+
+<div class="cart-container">
+
+  <div class="cart-item" *ngFor="let item of getCartItems()">
+    {{item}}
+  </div>
+
+  <div *ngIf="getCartItems().length==0" class="empty">
+    Cart is Empty
+  </div>
+
+</div>

@@ -1,0 +1,58 @@
+.container {
+  width: 800px;
+  margin: auto;
+  font-family: Arial;
+}
+
+h2 {
+  text-align: center;
+}
+
+.top-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 6px;
+  flex: 1;
+}
+
+button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.add-btn {
+  background: green;
+  color: white;
+}
+
+.delete {
+  background: red;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
+.overlay {
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: rgba(0,0,0,0.3);
+}
