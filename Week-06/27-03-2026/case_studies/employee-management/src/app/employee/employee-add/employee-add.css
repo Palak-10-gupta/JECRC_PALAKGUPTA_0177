@@ -1,0 +1,8 @@
+
+.form-card { max-width: 540px; margin: 0 auto; }
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 1rem;
+}

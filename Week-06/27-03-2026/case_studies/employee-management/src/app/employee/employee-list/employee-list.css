@@ -1,0 +1,63 @@
+/* src/app/employee/employee-list/employee-list.css */
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.4rem;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px 16px;
+  border: 1.5px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+  margin-bottom: 1.4rem;
+  transition: border 0.2s;
+}
+
+.search-bar input:focus { border-color: #4f46e5; }
+
+.emp-table-wrapper { overflow-x: auto; }
+
+.emp-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.93rem;
+}
+
+.emp-table th {
+  background: #f3f4f6;
+  color: #374151;
+  font-weight: 600;
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.emp-table td {
+  padding: 13px 16px;
+  border-bottom: 1px solid #f3f4f6;
+  vertical-align: middle;
+}
+
+.emp-table tr:hover td { background: #f9fafb; }
+
+.role-badge {
+  background: #ede9fe;
+  color: #5b21b6;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
+.actions { display: flex; gap: 8px; }
+
+.empty-state {
+  text-align: center;
+  color: #9ca3af;
+  padding: 2rem;
+  font-size: 1rem;
+}
