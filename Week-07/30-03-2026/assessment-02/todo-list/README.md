@@ -31,22 +31,6 @@ A simple and modern Todo List application built using React that allows users to
 
 ---
 
-## 📂 Project Structure
-
-todo-list/
-│
-├── public/
-├── src/
-│   ├── App.js
-│   ├── App.css
-│   ├── index.js
-│   ├── index.css
-│
-├── package.json
-└── README.md
-
----
-
 ## 🎯 How It Works
 
 * Tasks are stored in an **array state**
