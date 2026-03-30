@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import Counter from './components/Counter';
+import StateVsPropsDemo from './components/StateVsPropsDemo';
+import TemperatureConverter from './components/TemperatureConverter';
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <StateVsPropsDemo />
     </div>
   );
 }
