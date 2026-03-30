@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+# 🛍️ DevShop — React Shopping Cart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A premium, fully functional shopping cart application built with React.js as part of Assessment 03.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Project Overview
 
-### `npm start`
+DevShop is a mini e-commerce shopping cart that allows users to browse products, manage their cart, and complete a simulated checkout experience. The app demonstrates core React concepts including state management, component communication, and derived state using `reduce()`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Features
 
-### `npm test`
+- 🛒 **Product Listing** — 8 developer-themed products displayed in a responsive grid
+- ➕ **Add to Cart** — Add any product with a single click; button flashes green on add
+- 🔢 **Update Quantity** — Increase or decrease item quantity directly from the cart
+- ❌ **Remove Item** — Remove individual items or clear the entire cart
+- 💰 **Live Total Calculation** — Subtotal, 10% tax, and grand total update in real time
+- 🏷️ **In-Cart Badge** — Shows how many of each item is already in the cart
+- 🔔 **Toast Notifications** — Slide-in alerts for add, remove, and clear actions
+- ✅ **Order Confirmation Modal** — Animated modal with order ID, item list, and totals on checkout
+- 🖼️ **Real Product Images** — Unsplash photos with smooth hover zoom effect
+- 📱 **Responsive Design** — Works on desktop and mobile screens
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧠 React Concepts Covered
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Concept | Where Used |
+|---|---|
+| `useState` | Cart state, active tab, notifications, modal visibility |
+| **Lifting State Up** | Cart state lives in `App.js`, passed down to all components |
+| **Props** | Product data and cart quantity passed to `ProductCard` |
+| **Callbacks** | `onAddToCart`, `onIncrease`, `onDecrease`, `onRemove` passed as props |
+| **Derived State** | `reduce()` used to calculate subtotal, total items, grand total |
+| **Conditional Rendering** | Empty cart state, in-cart badge, toast, modal |
+| **List Rendering** | `map()` used for product grid and cart items |
+| **Component Composition** | App → ProductCard, CartItem, CartSummary |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🗂️ Project Structure
 
-### `npm run eject`
+```
+shopping-cart/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── ProductCard.js     # Individual product display with image
+│   │   ├── CartItem.js        # Single cart item with quantity controls
+│   │   └── CartSummary.js     # Order summary + checkout modal
+│   ├── App.js                 # Root component — state & logic
+│   ├── App.css                # All styles
+│   └── index.css              # Base reset
+├── package.json
+└── README.md
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
+- Node.js (v14 or above)
+- npm
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Installation & Run
 
-## Learn More
+```bash
+# Step 1: Navigate to project folder
+cd shopping-cart
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Step 2: Install dependencies
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Step 3: Start development server
+npm start
+```
+---
 
-### Code Splitting
+## 🧩 Component Breakdown
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### `App.js`
+- Holds the entire cart state (`useState`)
+- Defines all handler functions: `handleAddToCart`, `handleIncrease`, `handleDecrease`, `handleRemove`, `handleClearCart`
+- Passes state and callbacks down as props (lifting state up)
+- Controls tab navigation between Shop and Cart views
 
-### Analyzing the Bundle Size
+### `ProductCard.js`
+- Receives `product`, `onAddToCart`, `cartQuantity`, `index` as props
+- Displays product image, name, category, price
+- Shows "✓ Added!" feedback animation on button click
+- Shows in-cart badge overlay on product image
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### `CartItem.js`
+- Receives `item`, `onIncrease`, `onDecrease`, `onRemove` as props
+- Displays product thumbnail, name, unit price, quantity controls
+- Calculates and shows per-item total (`price × quantity`)
 
-### Making a Progressive Web App
+### `CartSummary.js`
+- Uses `reduce()` to derive subtotal, tax, total from cart array
+- Handles checkout modal open/close state locally
+- On "Continue Shopping": closes modal and clears cart
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🎨 UI Highlights
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Dark premium theme (`#0b0b10` background, `#6c63ff` accent)
+- Cards fade up with staggered animation on page load
+- Product images zoom smoothly on hover
+- Checkout modal pops in with spring animation + SVG checkmark draw animation
+- Sticky header with blur backdrop
