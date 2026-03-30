@@ -32,22 +32,6 @@ A simple and modern React application that allows users to switch between **Ligh
 
 ---
 
-## 📂 Project Structure
-
-toggle-theme/
-│
-├── public/
-├── src/
-│   ├── App.js
-│   ├── App.css
-│   ├── index.js
-│   ├── index.css
-│
-├── package.json
-└── README.md
-
----
-
 ## 🎯 How It Works
 
 * The app uses a **boolean state (`darkMode`)**
@@ -64,5 +48,3 @@ toggle-theme/
 
 Mode: Dark 🌙
 [ Switch to Light Mode ]
-
----
