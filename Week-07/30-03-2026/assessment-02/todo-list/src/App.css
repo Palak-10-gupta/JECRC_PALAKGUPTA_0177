@@ -1,0 +1,110 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Background Gradient (Professional Blue-Purple) */
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4facfe, #6a11cb);
+}
+
+/* Card (Main Container) */
+.card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  width: 380px;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+h1 {
+  color: #333;
+}
+
+/* Input Section */
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+/* Add Button */
+.input-section button {
+  padding: 12px 16px;
+  border: none;
+  border-radius: 10px;
+  background: #ff7e5f;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.input-section button:hover {
+  background: #ff5a3c;
+}
+
+/* List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Task Box (DIFFERENT COLOR from background) */
+li {
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  margin: 12px 0;
+  padding: 12px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+/* Hover Effect */
+li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Text */
+li span {
+  cursor: pointer;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Completed Task */
+.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+/* Delete Button */
+.delete-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #ff4d4d;
+  transition: 0.2s;
+}
+
+.delete-btn:hover {
+  transform: scale(1.2);
+}
