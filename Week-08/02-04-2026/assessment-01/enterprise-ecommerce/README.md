@@ -1,6 +1,6 @@
 # 🚀 NexaShop – Enterprise E-commerce Platform
 
-NexaShop is a modern, enterprise-level e-commerce web application built using **React.js**. It features a clean UI, role-based dashboard, product management, analytics, and authentication flows — all designed with a **premium pastel UI**.
+NexaShop is a modern, enterprise-level e-commerce web application built using **React.js**. It features a clean UI, role-based dashboard, product management, analytics, and authentication flows.
 
 ---
 
@@ -39,7 +39,6 @@ NexaShop is a modern, enterprise-level e-commerce web application built using **
 
 ### 🎨 UI/UX Highlights
 
-* 🌈 Bright pastel color theme
 * 💎 Clean & modern SaaS design
 * 📱 Fully responsive layout
 * 🧊 Glass-like cards & soft shadows
