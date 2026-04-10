@@ -1,0 +1,102 @@
+[
+  {
+    "ContainingType": "GroceryPortal.Controllers.GroceryController",
+    "Method": "AddGrocery",
+    "RelativePath": "api/Grocery",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GroceryPortal.dto.CreateGroceryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GroceryPortal.Controllers.GroceryController",
+    "Method": "GetAll",
+    "RelativePath": "api/Grocery",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GroceryPortal.Controllers.GroceryController",
+    "Method": "GetById",
+    "RelativePath": "api/Grocery/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GroceryPortal.Controllers.GroceryController",
+    "Method": "FullUpdate",
+    "RelativePath": "api/Grocery/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GroceryPortal.dto.CreateGroceryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GroceryPortal.Controllers.GroceryController",
+    "Method": "UpdateGrocery",
+    "RelativePath": "api/Grocery/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GroceryPortal.dto.UpdateGroceryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GroceryPortal.Controllers.GroceryController",
+    "Method": "Delete",
+    "RelativePath": "api/Grocery/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
