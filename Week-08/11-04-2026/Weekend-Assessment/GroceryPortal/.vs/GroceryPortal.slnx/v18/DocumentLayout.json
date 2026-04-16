@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\JECRC_PALAK GUPTA_0177\\Week-09\\10-04-2026\\assessment-01\\GroceryPortal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C70302C-B830-684A-D11B-412DAA52A8E2}|GroceryPortal.csproj|e:\\jecrc_palak gupta_0177\\week-09\\10-04-2026\\assessment-01\\groceryportal\\models\\attributes\\priceattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C70302C-B830-684A-D11B-412DAA52A8E2}|GroceryPortal.csproj|solutionrelative:models\\attributes\\priceattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C70302C-B830-684A-D11B-412DAA52A8E2}|GroceryPortal.csproj|e:\\jecrc_palak gupta_0177\\week-09\\10-04-2026\\assessment-01\\groceryportal\\models\\attributes\\quantityattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C70302C-B830-684A-D11B-412DAA52A8E2}|GroceryPortal.csproj|solutionrelative:models\\attributes\\quantityattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C70302C-B830-684A-D11B-412DAA52A8E2}|GroceryPortal.csproj|e:\\jecrc_palak gupta_0177\\week-09\\10-04-2026\\assessment-01\\groceryportal\\dto\\creategrocerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C70302C-B830-684A-D11B-412DAA52A8E2}|GroceryPortal.csproj|solutionrelative:dto\\creategrocerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C70302C-B830-684A-D11B-412DAA52A8E2}|GroceryPortal.csproj|e:\\jecrc_palak gupta_0177\\week-09\\10-04-2026\\assessment-01\\groceryportal\\dto\\updategrocerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C70302C-B830-684A-D11B-412DAA52A8E2}|GroceryPortal.csproj|solutionrelative:dto\\updategrocerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C70302C-B830-684A-D11B-412DAA52A8E2}|GroceryPortal.csproj|e:\\jecrc_palak gupta_0177\\week-09\\10-04-2026\\assessment-01\\groceryportal\\dto\\groceryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C70302C-B830-684A-D11B-412DAA52A8E2}|GroceryPortal.csproj|solutionrelative:dto\\groceryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C70302C-B830-684A-D11B-412DAA52A8E2}|GroceryPortal.csproj|e:\\jecrc_palak gupta_0177\\week-09\\10-04-2026\\assessment-01\\groceryportal\\entities\\grocery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C70302C-B830-684A-D11B-412DAA52A8E2}|GroceryPortal.csproj|solutionrelative:entities\\grocery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C70302C-B830-684A-D11B-412DAA52A8E2}|GroceryPortal.csproj|e:\\jecrc_palak gupta_0177\\week-09\\10-04-2026\\assessment-01\\groceryportal\\controllers\\grocerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C70302C-B830-684A-D11B-412DAA52A8E2}|GroceryPortal.csproj|solutionrelative:controllers\\grocerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C70302C-B830-684A-D11B-412DAA52A8E2}|GroceryPortal.csproj|e:\\jecrc_palak gupta_0177\\week-09\\10-04-2026\\assessment-01\\groceryportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C70302C-B830-684A-D11B-412DAA52A8E2}|GroceryPortal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C70302C-B830-684A-D11B-412DAA52A8E2}|GroceryPortal.csproj|e:\\jecrc_palak gupta_0177\\week-09\\10-04-2026\\assessment-01\\groceryportal\\groceryportal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0C70302C-B830-684A-D11B-412DAA52A8E2}|GroceryPortal.csproj|solutionrelative:groceryportal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PriceAttribute.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-09\\10-04-2026\\assessment-01\\GroceryPortal\\Models\\attributes\\PriceAttribute.cs",
+              "RelativeDocumentMoniker": "Models\\attributes\\PriceAttribute.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-09\\10-04-2026\\assessment-01\\GroceryPortal\\Models\\attributes\\PriceAttribute.cs",
+              "RelativeToolTip": "Models\\attributes\\PriceAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T09:00:02.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Grocery.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-09\\10-04-2026\\assessment-01\\GroceryPortal\\entities\\Grocery.cs",
+              "RelativeDocumentMoniker": "entities\\Grocery.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-09\\10-04-2026\\assessment-01\\GroceryPortal\\entities\\Grocery.cs",
+              "RelativeToolTip": "entities\\Grocery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T08:58:21.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GroceryResponseDto.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-09\\10-04-2026\\assessment-01\\GroceryPortal\\dto\\GroceryResponseDto.cs",
+              "RelativeDocumentMoniker": "dto\\GroceryResponseDto.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-09\\10-04-2026\\assessment-01\\GroceryPortal\\dto\\GroceryResponseDto.cs",
+              "RelativeToolTip": "dto\\GroceryResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T08:59:26.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateGroceryDto.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-09\\10-04-2026\\assessment-01\\GroceryPortal\\dto\\CreateGroceryDto.cs",
+              "RelativeDocumentMoniker": "dto\\CreateGroceryDto.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-09\\10-04-2026\\assessment-01\\GroceryPortal\\dto\\CreateGroceryDto.cs",
+              "RelativeToolTip": "dto\\CreateGroceryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T08:58:54.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuantityAttribute.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-09\\10-04-2026\\assessment-01\\GroceryPortal\\Models\\attributes\\QuantityAttribute.cs",
+              "RelativeDocumentMoniker": "Models\\attributes\\QuantityAttribute.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-09\\10-04-2026\\assessment-01\\GroceryPortal\\Models\\attributes\\QuantityAttribute.cs",
+              "RelativeToolTip": "Models\\attributes\\QuantityAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T09:00:37.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateGroceryDto.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-09\\10-04-2026\\assessment-01\\GroceryPortal\\dto\\UpdateGroceryDto.cs",
+              "RelativeDocumentMoniker": "dto\\UpdateGroceryDto.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-09\\10-04-2026\\assessment-01\\GroceryPortal\\dto\\UpdateGroceryDto.cs",
+              "RelativeToolTip": "dto\\UpdateGroceryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T09:03:45.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-09\\10-04-2026\\assessment-01\\GroceryPortal\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-09\\10-04-2026\\assessment-01\\GroceryPortal\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T09:01:44.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GroceryController.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-09\\10-04-2026\\assessment-01\\GroceryPortal\\Controllers\\GroceryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GroceryController.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-09\\10-04-2026\\assessment-01\\GroceryPortal\\Controllers\\GroceryController.cs",
+              "RelativeToolTip": "Controllers\\GroceryController.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAIwGsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T09:01:10.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GroceryPortal.csproj",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-09\\10-04-2026\\assessment-01\\GroceryPortal\\GroceryPortal.csproj",
+              "RelativeDocumentMoniker": "GroceryPortal.csproj",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-09\\10-04-2026\\assessment-01\\GroceryPortal\\GroceryPortal.csproj",
+              "RelativeToolTip": "GroceryPortal.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-10T08:53:03.491Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
