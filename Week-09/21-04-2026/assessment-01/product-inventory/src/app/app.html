@@ -1,0 +1,113 @@
+<div class="app-wrapper">
+
+  <!-- Header -->
+  <header class="app-header">
+    <div class="logo-block">
+      <span class="logo-icon">⬡</span>
+      <div>
+        <div class="brand-name">INVENTRA</div>
+        <div class="brand-sub">Product Management System</div>
+      </div>
+    </div>
+    <div class="header-user">
+      <div class="avatar">PG</div>
+      <div class="user-info">
+        <span class="user-name">Palak Gupta</span>
+        <span class="user-role">Inventory Manager</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="main-content">
+
+    <!-- Stats -->
+    <div class="stats-row">
+      <div class="stat-card">
+        <span class="stat-num">{{ allProducts.length }}</span>
+        <span class="stat-label">Total Products</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">{{ categories.length }}</span>
+        <span class="stat-label">Categories</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">{{ inStockCount }}</span>
+        <span class="stat-label">In Stock</span>
+      </div>
+      <div class="stat-card accent">
+        <span class="stat-num">{{ filteredProducts.length }}</span>
+        <span class="stat-label">Showing</span>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls-panel">
+      <div class="controls-left">
+        <div class="control-group">
+          <label class="control-label">Category</label>
+          <div class="select-wrap">
+            <select [(ngModel)]="selectedCategory" class="styled-select">
+              <option value="">All Categories</option>
+              <option *ngFor="let cat of categories" [value]="cat">{{ cat }}</option>
+            </select>
+            <span class="select-arrow">▾</span>
+          </div>
+        </div>
+        <button class="btn-filter" (click)="onFilter()">Filter</button>
+      </div>
+      <div class="controls-right">
+        <label class="toggle-label">
+          <div class="toggle-track" [class.active]="showInStockOnly">
+            <div class="toggle-thumb"></div>
+          </div>
+          <input type="checkbox" [(ngModel)]="showInStockOnly" (change)="onStockToggle()" hidden />
+          <span class="toggle-text">Show In-Stock Only</span>
+        </label>
+      </div>
+    </div>
+
+    <!-- Table -->
+    <div class="table-container">
+      <table class="product-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Product Name</th>
+            <th>Category</th>
+            <th class="sortable" (click)="sortByPrice()">
+              Price ($) <span class="sort-icon" [class.active]="priceSortAsc">↑</span>
+            </th>
+            <th>Stock</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let product of filteredProducts"
+              class="table-row" [class.row-out]="product.stock === 0">
+            <td class="td-id">{{ product.id }}</td>
+            <td class="td-name">{{ product.name }}</td>
+            <td>
+              <span class="cat-tag">{{ product.category }}</span>
+            </td>
+            <td class="td-price">${{ product.price | number:'1.2-2' }}</td>
+            <td class="td-stock">{{ product.stock }}</td>
+            <td>
+              <span class="badge" [ngClass]="getStockClass(product.stock)">
+                {{ getStockLabel(product.stock) }}
+              </span>
+            </td>
+          </tr>
+          <tr *ngIf="filteredProducts.length === 0">
+            <td colspan="6" class="empty-row">
+              <div class="empty-state">
+                <p>No products match your filters.</p>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </main>
+</div>
