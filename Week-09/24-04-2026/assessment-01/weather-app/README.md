@@ -31,7 +31,7 @@ At component render, since nothing is typed, do not render above 2 divs.
 ---
 
 ## Environment
-- Angular CLI Version: 10
+- Angular CLI Version: 15
 - Node Version: 18+
 - Default Port: 8000
 
@@ -67,7 +67,7 @@ weather-app/
 ## Commands
 
 ```bash
-npm install -g @angular/cli@10 --legacy-peer-deps
+npm install -g @angular/cli@15 --legacy-peer-deps
 ng new weather-app --style=css --routing=false
 cd weather-app
 ng generate component weather --skip-tests
