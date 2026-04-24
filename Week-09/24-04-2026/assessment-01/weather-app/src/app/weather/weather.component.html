@@ -1,0 +1,76 @@
+<div class="weather-wrapper">
+
+  <!-- Header -->
+  <div class="hero-header">
+    <div class="logo-row">
+      <span class="logo-icon">⛅</span>
+      <span class="brand">SkyCast</span>
+    </div>
+    <p class="tagline">Real-time vibes for your city</p>
+  </div>
+
+  <!-- Search Box -->
+  <div class="search-container">
+    <div class="search-box">
+      <span class="search-icon">🔍</span>
+      <input
+        data-test-id="app-input"
+        type="text"
+        [(ngModel)]="searchQuery"
+        placeholder="Search your city..."
+        class="city-input"
+        autocomplete="off"
+      />
+      <span class="clear-btn" *ngIf="searchQuery" (click)="searchQuery = ''">✕</span>
+    </div>
+  </div>
+
+  <!-- Weather Card -->
+  <div *ngIf="result" data-test-id="weather-details" class="weather-card">
+    <div class="card-glow"></div>
+    <div class="city-name-row">
+      <span class="city-pin">📍</span>
+      <h2 class="city-title">{{ result.name }}</h2>
+    </div>
+    <div class="temp-hero" data-test-id="output-temperature">
+      {{ result.temperature }}
+    </div>
+    <div class="stats-grid">
+      <div class="stat-pill" data-test-id="output-wind">
+        <span class="stat-icon">💨</span>
+        <div class="stat-info">
+          <span class="stat-label">Wind</span>
+          <span class="stat-value">{{ result.wind }}</span>
+        </div>
+      </div>
+      <div class="stat-pill" data-test-id="output-humidity">
+        <span class="stat-icon">💧</span>
+        <div class="stat-info">
+          <span class="stat-label">Humidity</span>
+          <span class="stat-value">{{ result.humidity }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- No Results -->
+  <div *ngIf="showNoResults" data-test-id="no-results" class="no-results">
+    <div class="no-results-icon">🌫️</div>
+    <p class="no-results-text">No Results Found</p>
+    <p class="no-results-sub">Try searching another city</p>
+  </div>
+
+  <!-- City Pills -->
+  <div class="suggestions" *ngIf="!searchQuery">
+    <p class="suggest-label">Popular Cities</p>
+    <div class="pill-row">
+      <span
+        class="city-pill"
+        *ngFor="let c of cities"
+        (click)="searchQuery = c.name">
+        {{ c.name }}
+      </span>
+    </div>
+  </div>
+
+</div>
