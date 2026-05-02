@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\frontend\\EMPS-mvcApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AB9F6C-2D6F-4EEE-A01B-DDB1616F879D}|EMPS-mvcApplication.csproj|e:\\jecrc_palak gupta_0177\\week-11\\02-05-2026\\assessment-01\\employeemanagementsystem\\frontend\\emps-mvcapplication\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1AB9F6C-2D6F-4EEE-A01B-DDB1616F879D}|EMPS-mvcApplication.csproj|solutionrelative:views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AB9F6C-2D6F-4EEE-A01B-DDB1616F879D}|EMPS-mvcApplication.csproj|e:\\jecrc_palak gupta_0177\\week-11\\02-05-2026\\assessment-01\\employeemanagementsystem\\frontend\\emps-mvcapplication\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1AB9F6C-2D6F-4EEE-A01B-DDB1616F879D}|EMPS-mvcApplication.csproj|solutionrelative:views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AB9F6C-2D6F-4EEE-A01B-DDB1616F879D}|EMPS-mvcApplication.csproj|e:\\jecrc_palak gupta_0177\\week-11\\02-05-2026\\assessment-01\\employeemanagementsystem\\frontend\\emps-mvcapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1AB9F6C-2D6F-4EEE-A01B-DDB1616F879D}|EMPS-mvcApplication.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AB9F6C-2D6F-4EEE-A01B-DDB1616F879D}|EMPS-mvcApplication.csproj|e:\\jecrc_palak gupta_0177\\week-11\\02-05-2026\\assessment-01\\employeemanagementsystem\\frontend\\emps-mvcapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1AB9F6C-2D6F-4EEE-A01B-DDB1616F879D}|EMPS-mvcApplication.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AB9F6C-2D6F-4EEE-A01B-DDB1616F879D}|EMPS-mvcApplication.csproj|e:\\jecrc_palak gupta_0177\\week-11\\02-05-2026\\assessment-01\\employeemanagementsystem\\frontend\\emps-mvcapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1AB9F6C-2D6F-4EEE-A01B-DDB1616F879D}|EMPS-mvcApplication.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AB9F6C-2D6F-4EEE-A01B-DDB1616F879D}|EMPS-mvcApplication.csproj|e:\\jecrc_palak gupta_0177\\week-11\\02-05-2026\\assessment-01\\employeemanagementsystem\\frontend\\emps-mvcapplication\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1AB9F6C-2D6F-4EEE-A01B-DDB1616F879D}|EMPS-mvcApplication.csproj|solutionrelative:services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AB9F6C-2D6F-4EEE-A01B-DDB1616F879D}|EMPS-mvcApplication.csproj|e:\\jecrc_palak gupta_0177\\week-11\\02-05-2026\\assessment-01\\employeemanagementsystem\\frontend\\emps-mvcapplication\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1AB9F6C-2D6F-4EEE-A01B-DDB1616F879D}|EMPS-mvcApplication.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\frontend\\EMPS-mvcApplication\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Edit.cshtml",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\frontend\\EMPS-mvcApplication\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Home\\Edit.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwCMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T10:20:39.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\frontend\\EMPS-mvcApplication\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Create.cshtml",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\frontend\\EMPS-mvcApplication\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "Views\\Home\\Create.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwCEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T10:14:40.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\frontend\\EMPS-mvcApplication\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\frontend\\EMPS-mvcApplication\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T10:12:01.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\frontend\\EMPS-mvcApplication\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\frontend\\EMPS-mvcApplication\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T10:11:44.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\frontend\\EMPS-mvcApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\frontend\\EMPS-mvcApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T10:11:32.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\frontend\\EMPS-mvcApplication\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\frontend\\EMPS-mvcApplication\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T10:11:17.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\frontend\\EMPS-mvcApplication\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "Services\\ApiService.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\frontend\\EMPS-mvcApplication\\Services\\ApiService.cs",
+              "RelativeToolTip": "Services\\ApiService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T10:10:40.016Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

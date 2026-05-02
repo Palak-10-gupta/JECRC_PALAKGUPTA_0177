@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\backend\\EMS.InMemoryAPI",
+    "\\backend\\EMS.InMemoryAPI\\Models",
+    "\\frontend",
+    "\\frontend\\EMPS-mvcApplication",
+    "\\frontend\\EMPS-mvcApplication\\Services",
+    "\\frontend\\EMPS-mvcApplication\\Views",
+    "\\frontend\\EMPS-mvcApplication\\Views\\Home",
+    "\\frontend\\EMPS-mvcApplication\\Views\\Shared",
+    "\\frontend\\EMPS-mvcApplication\\wwwroot",
+    "\\frontend\\EMPS-mvcApplication\\wwwroot\\css"
+  ],
+  "SelectedNode": "\\frontend\\EMPS-mvcApplication\\Services\\ApiService.cs",
+  "PreviewInSolutionExplorer": false
+}
