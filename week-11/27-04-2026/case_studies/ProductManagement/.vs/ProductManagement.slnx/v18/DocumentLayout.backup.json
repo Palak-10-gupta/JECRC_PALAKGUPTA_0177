@@ -1,0 +1,268 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|e:\\jecrc_palak gupta_0177\\week-11\\27-04-2026\\case_studies\\productmanagement\\views\\products\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|solutionrelative:views\\products\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|e:\\jecrc_palak gupta_0177\\week-11\\27-04-2026\\case_studies\\productmanagement\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|e:\\jecrc_palak gupta_0177\\week-11\\27-04-2026\\case_studies\\productmanagement\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|e:\\jecrc_palak gupta_0177\\week-11\\27-04-2026\\case_studies\\productmanagement\\productmanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|solutionrelative:productmanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|e:\\jecrc_palak gupta_0177\\week-11\\27-04-2026\\case_studies\\productmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|e:\\jecrc_palak gupta_0177\\week-11\\27-04-2026\\case_studies\\productmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|e:\\jecrc_palak gupta_0177\\week-11\\27-04-2026\\case_studies\\productmanagement\\dtos\\productrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|solutionrelative:dtos\\productrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|e:\\jecrc_palak gupta_0177\\week-11\\27-04-2026\\case_studies\\productmanagement\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|solutionrelative:dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|e:\\jecrc_palak gupta_0177\\week-11\\27-04-2026\\case_studies\\productmanagement\\repositories\\implementations\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|solutionrelative:repositories\\implementations\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|e:\\jecrc_palak gupta_0177\\week-11\\27-04-2026\\case_studies\\productmanagement\\models\\productdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|solutionrelative:models\\productdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|e:\\jecrc_palak gupta_0177\\week-11\\27-04-2026\\case_studies\\productmanagement\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|e:\\jecrc_palak gupta_0177\\week-11\\27-04-2026\\case_studies\\productmanagement\\repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|solutionrelative:repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|e:\\jecrc_palak gupta_0177\\week-11\\27-04-2026\\case_studies\\productmanagement\\models\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|solutionrelative:models\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|e:\\jecrc_palak gupta_0177\\week-11\\27-04-2026\\case_studies\\productmanagement\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|e:\\jecrc_palak gupta_0177\\week-11\\27-04-2026\\case_studies\\productmanagement\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F0579E8-D4EC-3346-68B1-223742C55C0A}|ProductManagement.csproj|solutionrelative:models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetAll.cshtml",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\Views\\Products\\GetAll.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\GetAll.cshtml",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\Views\\Products\\GetAll.cshtml",
+              "RelativeToolTip": "Views\\Products\\GetAll.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T09:22:51.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T07:01:58.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductManagement.csproj",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\ProductManagement.csproj",
+              "RelativeDocumentMoniker": "ProductManagement.csproj",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\ProductManagement.csproj",
+              "RelativeToolTip": "ProductManagement.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-27T06:54:26.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T07:01:44.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:22:55.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductDetails.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\Models\\ProductDetails.cs",
+              "RelativeDocumentMoniker": "Models\\ProductDetails.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\Models\\ProductDetails.cs",
+              "RelativeToolTip": "Models\\ProductDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T05:59:08.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductRequestDto.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\DTOs\\ProductRequestDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ProductRequestDto.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\DTOs\\ProductRequestDto.cs",
+              "RelativeToolTip": "DTOs\\ProductRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:58:09.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ProductDto.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "DTOs\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:55:00.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-27T06:51:37.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\Repositories\\Implementations\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\ProductRepository.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\Repositories\\Implementations\\ProductRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:30:14.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T05:48:10.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:29:45.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductTag.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\Models\\ProductTag.cs",
+              "RelativeDocumentMoniker": "Models\\ProductTag.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\Models\\ProductTag.cs",
+              "RelativeToolTip": "Models\\ProductTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:38:06.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "Models\\Tag.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\Models\\Tag.cs",
+              "RelativeToolTip": "Models\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:37:36.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\27-04-2026\\case_studies\\ProductManagement\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T05:50:48.956Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

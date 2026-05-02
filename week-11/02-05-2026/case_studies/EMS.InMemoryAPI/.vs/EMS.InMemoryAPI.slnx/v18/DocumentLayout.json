@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\backend\\EMS.InMemoryAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8494B1-796E-7F4A-BC0A-5B8377C66D30}|EMS.InMemoryAPI.csproj|e:\\jecrc_palak gupta_0177\\week-11\\02-05-2026\\assessment-01\\employeemanagementsystem\\backend\\ems.inmemoryapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AE8494B1-796E-7F4A-BC0A-5B8377C66D30}|EMS.InMemoryAPI.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8494B1-796E-7F4A-BC0A-5B8377C66D30}|EMS.InMemoryAPI.csproj|e:\\jecrc_palak gupta_0177\\week-11\\02-05-2026\\assessment-01\\employeemanagementsystem\\backend\\ems.inmemoryapi\\appsettings.docker.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AE8494B1-796E-7F4A-BC0A-5B8377C66D30}|EMS.InMemoryAPI.csproj|solutionrelative:appsettings.docker.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8494B1-796E-7F4A-BC0A-5B8377C66D30}|EMS.InMemoryAPI.csproj|e:\\jecrc_palak gupta_0177\\week-11\\02-05-2026\\assessment-01\\employeemanagementsystem\\backend\\ems.inmemoryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8494B1-796E-7F4A-BC0A-5B8377C66D30}|EMS.InMemoryAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8494B1-796E-7F4A-BC0A-5B8377C66D30}|EMS.InMemoryAPI.csproj|e:\\jecrc_palak gupta_0177\\week-11\\02-05-2026\\assessment-01\\employeemanagementsystem\\backend\\ems.inmemoryapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AE8494B1-796E-7F4A-BC0A-5B8377C66D30}|EMS.InMemoryAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8494B1-796E-7F4A-BC0A-5B8377C66D30}|EMS.InMemoryAPI.csproj|e:\\jecrc_palak gupta_0177\\week-11\\02-05-2026\\assessment-01\\employeemanagementsystem\\backend\\ems.inmemoryapi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8494B1-796E-7F4A-BC0A-5B8377C66D30}|EMS.InMemoryAPI.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8494B1-796E-7F4A-BC0A-5B8377C66D30}|EMS.InMemoryAPI.csproj|e:\\jecrc_palak gupta_0177\\week-11\\02-05-2026\\assessment-01\\employeemanagementsystem\\backend\\ems.inmemoryapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8494B1-796E-7F4A-BC0A-5B8377C66D30}|EMS.InMemoryAPI.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8494B1-796E-7F4A-BC0A-5B8377C66D30}|EMS.InMemoryAPI.csproj|e:\\jecrc_palak gupta_0177\\week-11\\02-05-2026\\assessment-01\\employeemanagementsystem\\backend\\ems.inmemoryapi\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8494B1-796E-7F4A-BC0A-5B8377C66D30}|EMS.InMemoryAPI.csproj|solutionrelative:repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8494B1-796E-7F4A-BC0A-5B8377C66D30}|EMS.InMemoryAPI.csproj|e:\\jecrc_palak gupta_0177\\week-11\\02-05-2026\\assessment-01\\employeemanagementsystem\\backend\\ems.inmemoryapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8494B1-796E-7F4A-BC0A-5B8377C66D30}|EMS.InMemoryAPI.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\backend\\EMS.InMemoryAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\backend\\EMS.InMemoryAPI\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-02T09:40:26.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Docker.json",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\backend\\EMS.InMemoryAPI\\appsettings.Docker.json",
+              "RelativeDocumentMoniker": "appsettings.Docker.json",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\backend\\EMS.InMemoryAPI\\appsettings.Docker.json",
+              "RelativeToolTip": "appsettings.Docker.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-02T09:39:34.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\backend\\EMS.InMemoryAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\backend\\EMS.InMemoryAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-02T09:21:05.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\backend\\EMS.InMemoryAPI\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\backend\\EMS.InMemoryAPI\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T09:20:42.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\backend\\EMS.InMemoryAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\backend\\EMS.InMemoryAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T06:37:58.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\backend\\EMS.InMemoryAPI\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\backend\\EMS.InMemoryAPI\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T06:26:42.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\backend\\EMS.InMemoryAPI\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EmployeeRepository.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\backend\\EMS.InMemoryAPI\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T06:12:44.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\backend\\EMS.InMemoryAPI\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "E:\\JECRC_PALAK GUPTA_0177\\Week-11\\02-05-2026\\assessment-01\\EmployeeManagementSystem\\backend\\EMS.InMemoryAPI\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T06:07:58.346Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
