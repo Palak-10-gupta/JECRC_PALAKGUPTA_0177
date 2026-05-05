@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "fT7W3keHfWM=",
+  "success": true,
+  "projectFilePath": "E:\\JECRC_PALAK GUPTA_0177\\Week-12\\05-05-2026\\case_studies\\FantasyWebApp\\FantasyWebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\palak\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.26\\microsoft.windowsdesktop.app.ref.8.0.26.nupkg.sha512",
+    "C:\\Users\\palak\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.26\\microsoft.netcore.app.ref.8.0.26.nupkg.sha512",
+    "C:\\Users\\palak\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.26\\microsoft.aspnetcore.app.ref.8.0.26.nupkg.sha512",
+    "C:\\Users\\palak\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.26\\microsoft.netcore.app.host.win-x64.8.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}
