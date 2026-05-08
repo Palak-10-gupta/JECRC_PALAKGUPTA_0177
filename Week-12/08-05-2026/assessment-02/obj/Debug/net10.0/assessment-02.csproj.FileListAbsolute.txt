@@ -1,0 +1,15 @@
+E:\JECRC_PALAK GUPTA_0177\Week-12\08-05-2026\assessment-02\bin\Debug\net10.0\assessment-02.exe
+E:\JECRC_PALAK GUPTA_0177\Week-12\08-05-2026\assessment-02\bin\Debug\net10.0\assessment-02.deps.json
+E:\JECRC_PALAK GUPTA_0177\Week-12\08-05-2026\assessment-02\bin\Debug\net10.0\assessment-02.runtimeconfig.json
+E:\JECRC_PALAK GUPTA_0177\Week-12\08-05-2026\assessment-02\bin\Debug\net10.0\assessment-02.dll
+E:\JECRC_PALAK GUPTA_0177\Week-12\08-05-2026\assessment-02\bin\Debug\net10.0\assessment-02.pdb
+E:\JECRC_PALAK GUPTA_0177\Week-12\08-05-2026\assessment-02\obj\Debug\net10.0\assessment-02.GeneratedMSBuildEditorConfig.editorconfig
+E:\JECRC_PALAK GUPTA_0177\Week-12\08-05-2026\assessment-02\obj\Debug\net10.0\assessment-02.AssemblyInfoInputs.cache
+E:\JECRC_PALAK GUPTA_0177\Week-12\08-05-2026\assessment-02\obj\Debug\net10.0\assessment-02.AssemblyInfo.cs
+E:\JECRC_PALAK GUPTA_0177\Week-12\08-05-2026\assessment-02\obj\Debug\net10.0\assessment-02.csproj.CoreCompileInputs.cache
+E:\JECRC_PALAK GUPTA_0177\Week-12\08-05-2026\assessment-02\obj\Debug\net10.0\assessment-02.sourcelink.json
+E:\JECRC_PALAK GUPTA_0177\Week-12\08-05-2026\assessment-02\obj\Debug\net10.0\assessment-02.dll
+E:\JECRC_PALAK GUPTA_0177\Week-12\08-05-2026\assessment-02\obj\Debug\net10.0\refint\assessment-02.dll
+E:\JECRC_PALAK GUPTA_0177\Week-12\08-05-2026\assessment-02\obj\Debug\net10.0\assessment-02.pdb
+E:\JECRC_PALAK GUPTA_0177\Week-12\08-05-2026\assessment-02\obj\Debug\net10.0\assessment-02.genruntimeconfig.cache
+E:\JECRC_PALAK GUPTA_0177\Week-12\08-05-2026\assessment-02\obj\Debug\net10.0\ref\assessment-02.dll
