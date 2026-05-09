@@ -1,0 +1,52 @@
+﻿@model List<FoodOrdering.Core.Models.CartItem>
+
+@{
+    ViewData["Title"] = "Cart";
+    Layout = "_Layout";
+}
+
+<div class="container py-5">
+    <h2>Shopping Cart</h2>
+
+    <div class="form-card mt-4">
+        @if (!Model.Any())
+        {
+            <p>Your cart is empty.</p>
+        }
+        else
+        {
+            @foreach (var item in Model)
+            {
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <div class="d-flex gap-3 align-items-center">
+                        <img src="@item.ImageUrl" style="width:90px;height:90px;object-fit:cover;border-radius:14px;" />
+                        <div>
+                            <h5>@item.Name</h5>
+                            <p>₹@item.Price</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <form asp-action="UpdateQuantity" method="post">
+                            <input type="hidden" name="foodItemId" value="@item.FoodItemId" />
+                            <input type="number" name="quantity" value="@item.Quantity" min="1" />
+                            <button type="submit" class="btn-fire">Update</button>
+                        </form>
+
+                        <form asp-action="RemoveFromCart" method="post" class="mt-2">
+                            <input type="hidden" name="foodItemId" value="@item.FoodItemId" />
+                            <button type="submit" class="btn-gold">Remove</button>
+                        </form>
+                    </div>
+                </div>
+            }
+
+            <hr />
+            <h4>Total: ₹@ViewBag.Total</h4>
+
+            <a asp-controller="Order" asp-action="Checkout" class="btn-fire mt-3">
+                Proceed to Checkout
+            </a>
+        }
+    </div>
+</div>

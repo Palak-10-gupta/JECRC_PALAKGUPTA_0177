@@ -1,0 +1,11 @@
+﻿@model FoodOrdering.Core.Models.Order
+
+<div class="container py-5">
+    <div class="form-card text-center">
+        <h2>🎉 Order Confirmed!</h2>
+        <p>Your order #@Model.Id has been placed successfully.</p>
+        <p>Total: ₹@Model.TotalAmount</p>
+
+        <a asp-action="History" class="btn-fire">View Orders</a>
+    </div>
+</div>

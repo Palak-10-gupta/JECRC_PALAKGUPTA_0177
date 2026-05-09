@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] – 🔥 FoodRush</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+</head>
+<body>
+
+    @if (!ViewData.ContainsKey("HideNavbar"))
+    {
+        <nav class="navbar-custom d-flex align-items-center justify-content-between">
+            <a asp-controller="Home" asp-action="Index" class="navbar-brand-custom text-decoration-none">
+                🔥 Food<span>Rush</span>
+            </a>
+            <div class="d-flex align-items-center gap-3">
+                <a asp-controller="Food" asp-action="Index" class="nav-link-custom">Menu</a>
+                @if (User.Identity?.IsAuthenticated == true)
+                {
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a asp-controller="Admin" asp-action="Dashboard" class="nav-link-custom">
+                            <i class="bi bi-speedometer2"></i> Admin
+                        </a>
+                    }
+                    <a asp-controller="Cart" asp-action="Index" class="nav-link-custom position-relative">
+                        <i class="bi bi-bag"></i> Cart
+                        <span id="cart-count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" style="font-size:.65rem;"></span>
+                    </a>
+                    <a asp-controller="Order" asp-action="History" class="nav-link-custom">Orders</a>
+                    <form asp-controller="Account" asp-action="Logout" method="post" class="d-inline">
+                        <button type="submit" class="btn-outline-fire" style="padding:.5rem 1.25rem;font-size:.875rem;">
+                            <i class="bi bi-box-arrow-right"></i> Logout
+                        </button>
+                    </form>
+                }
+                else
+                {
+                    <a asp-controller="Account" asp-action="Login" class="nav-link-custom">Login</a>
+                    <a asp-controller="Account" asp-action="Register" class="btn-fire" style="padding:.55rem 1.5rem;">
+                        Get Started
+                    </a>
+                }
+            </div>
+        </nav>
+    }
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="container mt-3">
+            <div class="alert-success-custom">✅ @TempData["Success"]</div>
+        </div>
+    }
+
+    @if (TempData["CartMessage"] != null)
+    {
+        <div class="container mt-3">
+            <div class="alert-success-custom">🛒 @TempData["CartMessage"]</div>
+        </div>
+    }
+
+    @RenderBody()
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="footer-brand">🔥 Food<span>Rush</span></div>
+                    <p class="mt-2" style="color:var(--text-muted);font-size:.9rem;">
+                        Delivering happiness, one bite at a time.
+                    </p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h6 style="font-weight:700;margin-bottom:1rem;">Quick Links</h6>
+                    <div class="d-flex flex-column gap-2">
+                        <a asp-controller="Food" asp-action="Index" style="color:var(--text-muted);font-size:.9rem;">Menu</a>
+                        <a asp-controller="Order" asp-action="History" style="color:var(--text-muted);font-size:.9rem;">My Orders</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h6 style="font-weight:700;margin-bottom:1rem;">Contact</h6>
+                    <p style="color:var(--text-muted);font-size:.9rem;">
+                        <i class="bi bi-envelope me-2"></i>support@foodrush.com<br>
+                        <i class="bi bi-telephone me-2"></i>+91 98765 43210
+                    </p>
+                </div>
+            </div>
+            <hr class="divider mt-2">
+            <p class="text-center mt-3" style="color:var(--text-muted);font-size:.85rem;">
+                © 2025 FoodRush. Built with ❤️ using .NET 8
+            </p>
+        </div>
+    </footer>
+
+    <script>
+            // Update cart count
+            fetch('/Cart/GetCartCount').then(r => r.json()).then(count => {
+                const el = document.getElementById('cart-count');
+                if (el) el.textContent = count > 0 ? count : '';
+            });
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

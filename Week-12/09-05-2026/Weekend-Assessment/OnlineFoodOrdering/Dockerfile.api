@@ -1,0 +1,16 @@
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+
+COPY ["src/FoodOrdering.API/FoodOrdering.API.csproj", "FoodOrdering.API/"]
+COPY ["src/FoodOrdering.Core/FoodOrdering.Core.csproj", "FoodOrdering.Core/"]
+COPY ["src/FoodOrdering.Infrastructure/FoodOrdering.Infrastructure.csproj", "FoodOrdering.Infrastructure/"]
+
+RUN dotnet restore "FoodOrdering.API/FoodOrdering.API.csproj"
+COPY src/ .
+RUN dotnet publish "FoodOrdering.API/FoodOrdering.API.csproj" -c Release -o /app/publish
+
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
+WORKDIR /app
+EXPOSE 80
+COPY --from=build /app/publish .
+ENTRYPOINT ["dotnet", "FoodOrdering.API.dll"]

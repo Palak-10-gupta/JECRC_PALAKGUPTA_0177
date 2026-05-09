@@ -1,0 +1,13 @@
+E:\JECRC_PALAK GUPTA_0177\Week-12\09-05-2026\Weekend-Assessment\OnlineFoodOrdering\src\FoodOrdering.Core\bin\Debug\net8.0\FoodOrdering.Core.deps.json
+E:\JECRC_PALAK GUPTA_0177\Week-12\09-05-2026\Weekend-Assessment\OnlineFoodOrdering\src\FoodOrdering.Core\bin\Debug\net8.0\FoodOrdering.Core.dll
+E:\JECRC_PALAK GUPTA_0177\Week-12\09-05-2026\Weekend-Assessment\OnlineFoodOrdering\src\FoodOrdering.Core\bin\Debug\net8.0\FoodOrdering.Core.pdb
+E:\JECRC_PALAK GUPTA_0177\Week-12\09-05-2026\Weekend-Assessment\OnlineFoodOrdering\src\FoodOrdering.Core\obj\Debug\net8.0\FoodOrdering.Core.csproj.AssemblyReference.cache
+E:\JECRC_PALAK GUPTA_0177\Week-12\09-05-2026\Weekend-Assessment\OnlineFoodOrdering\src\FoodOrdering.Core\obj\Debug\net8.0\FoodOrdering.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\JECRC_PALAK GUPTA_0177\Week-12\09-05-2026\Weekend-Assessment\OnlineFoodOrdering\src\FoodOrdering.Core\obj\Debug\net8.0\FoodOrdering.Core.AssemblyInfoInputs.cache
+E:\JECRC_PALAK GUPTA_0177\Week-12\09-05-2026\Weekend-Assessment\OnlineFoodOrdering\src\FoodOrdering.Core\obj\Debug\net8.0\FoodOrdering.Core.AssemblyInfo.cs
+E:\JECRC_PALAK GUPTA_0177\Week-12\09-05-2026\Weekend-Assessment\OnlineFoodOrdering\src\FoodOrdering.Core\obj\Debug\net8.0\FoodOrdering.Core.csproj.CoreCompileInputs.cache
+E:\JECRC_PALAK GUPTA_0177\Week-12\09-05-2026\Weekend-Assessment\OnlineFoodOrdering\src\FoodOrdering.Core\obj\Debug\net8.0\FoodOrdering.Core.sourcelink.json
+E:\JECRC_PALAK GUPTA_0177\Week-12\09-05-2026\Weekend-Assessment\OnlineFoodOrdering\src\FoodOrdering.Core\obj\Debug\net8.0\FoodOrdering.Core.dll
+E:\JECRC_PALAK GUPTA_0177\Week-12\09-05-2026\Weekend-Assessment\OnlineFoodOrdering\src\FoodOrdering.Core\obj\Debug\net8.0\refint\FoodOrdering.Core.dll
+E:\JECRC_PALAK GUPTA_0177\Week-12\09-05-2026\Weekend-Assessment\OnlineFoodOrdering\src\FoodOrdering.Core\obj\Debug\net8.0\FoodOrdering.Core.pdb
+E:\JECRC_PALAK GUPTA_0177\Week-12\09-05-2026\Weekend-Assessment\OnlineFoodOrdering\src\FoodOrdering.Core\obj\Debug\net8.0\ref\FoodOrdering.Core.dll

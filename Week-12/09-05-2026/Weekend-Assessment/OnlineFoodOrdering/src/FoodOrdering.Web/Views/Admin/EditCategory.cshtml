@@ -1,0 +1,44 @@
+﻿@model FoodOrdering.Core.Models.Category
+
+@{
+    ViewData["Title"] = "Edit Category";
+    ViewData["HideNavbar"] = true;
+    Layout = "_Layout";
+}
+
+<div style="display:flex;min-height:100vh">
+    <aside class="admin-sidebar">
+        <div class="brand">
+            🔥 FoodRush
+        </div>
+    </aside>
+
+    <main class="admin-main" style="flex:1">
+        <h2 style="font-family:'Playfair Display',serif;font-weight:900;">Edit Category</h2>
+
+        <div class="form-card mt-4">
+            <form asp-action="EditCategory" method="post">
+                <input asp-for="Id" type="hidden" />
+
+                <div class="mb-4">
+                    <label>Name</label>
+                    <input asp-for="Name" class="form-control-custom" />
+                </div>
+
+                <div class="mb-4">
+                    <label>Description</label>
+                    <textarea asp-for="Description" class="form-control-custom"></textarea>
+                </div>
+
+                <div class="form-check mb-4">
+                    <input asp-for="IsActive" class="form-check-input" />
+                    <label>Active</label>
+                </div>
+
+                <button type="submit" class="btn-fire">
+                    Update Category
+                </button>
+            </form>
+        </div>
+    </main>
+</div>

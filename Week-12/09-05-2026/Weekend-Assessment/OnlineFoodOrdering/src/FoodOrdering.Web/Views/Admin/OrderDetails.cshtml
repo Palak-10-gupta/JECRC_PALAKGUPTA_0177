@@ -1,0 +1,32 @@
+﻿@model FoodOrdering.Core.Models.Order
+
+@{
+    ViewData["Title"] = "Order Details";
+    ViewData["HideNavbar"] = true;
+    Layout = "_Layout";
+}
+
+<div class="container py-5">
+    <div class="form-card">
+        <h2>Order #@Model.Id</h2>
+
+        <p><strong>Customer:</strong> @Model.User?.FullName</p>
+        <p><strong>Status:</strong> @Model.Status</p>
+        <p><strong>Address:</strong> @Model.DeliveryAddress</p>
+        <p><strong>Payment:</strong> @Model.PaymentMethod</p>
+        <p><strong>Notes:</strong> @Model.Notes</p>
+
+        <hr />
+
+        @foreach (var item in Model.OrderItems)
+        {
+            <div class="d-flex justify-content-between mb-2">
+                <span>@item.FoodItem.Name x @item.Quantity</span>
+                <span>₹@item.Subtotal</span>
+            </div>
+        }
+
+        <hr />
+        <h4>Total: ₹@Model.TotalAmount</h4>
+    </div>
+</div>

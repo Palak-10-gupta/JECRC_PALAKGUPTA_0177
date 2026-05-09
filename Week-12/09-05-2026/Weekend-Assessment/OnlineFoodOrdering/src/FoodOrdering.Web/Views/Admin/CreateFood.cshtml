@@ -1,0 +1,72 @@
+﻿@model FoodOrdering.Core.Models.FoodItem
+
+@{
+    ViewData["Title"] = "Create Food";
+    ViewData["HideNavbar"] = true;
+    Layout = "_Layout";
+}
+
+<div style="display:flex;min-height:100vh">
+    <aside class="admin-sidebar">
+        <div class="brand">
+            <div style="font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:900">
+                🔥 Food<span style="color:var(--primary)">Rush</span>
+            </div>
+            <div style="color:var(--text-muted);font-size:.78rem;">Admin Panel</div>
+        </div>
+
+        <nav>
+            <a asp-action="Dashboard" class="admin-nav-item"><span class="icon">📊</span> Dashboard</a>
+            <a asp-action="FoodItems" class="admin-nav-item active"><span class="icon">🍽️</span> Food Items</a>
+            <a asp-action="Categories" class="admin-nav-item"><span class="icon">📂</span> Categories</a>
+            <a asp-action="Orders" class="admin-nav-item"><span class="icon">📦</span> Orders</a>
+        </nav>
+    </aside>
+
+    <main class="admin-main" style="flex:1">
+        <h2 style="font-family:'Playfair Display',serif;font-weight:900;">Add Food Item</h2>
+
+        <div class="form-card mt-4">
+            <form asp-action="CreateFood" method="post" enctype="multipart/form-data">
+                <div class="mb-4">
+                    <label class="form-label-custom">Food Name</label>
+                    <input asp-for="Name" class="form-control-custom" />
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label-custom">Description</label>
+                    <textarea asp-for="Description" class="form-control-custom"></textarea>
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label-custom">Price</label>
+                    <input asp-for="Price" type="number" step="0.01" class="form-control-custom" />
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label-custom">Category</label>
+                    <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-control-custom"></select>
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label-custom">Image</label>
+                    <input type="file" name="imageFile" class="form-control-custom" />
+                </div>
+
+                <div class="form-check mb-3">
+                    <input asp-for="IsAvailable" class="form-check-input" />
+                    <label asp-for="IsAvailable">Available</label>
+                </div>
+
+                <div class="form-check mb-4">
+                    <input asp-for="IsFeatured" class="form-check-input" />
+                    <label asp-for="IsFeatured">Featured</label>
+                </div>
+
+                <button type="submit" class="btn-fire">
+                    <i class="bi bi-check-circle"></i> Save Food Item
+                </button>
+            </form>
+        </div>
+    </main>
+</div>

@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Checkout";
+    Layout = "_Layout";
+}
+<div class="container py-5">
+    <div class="form-card">
+        <h2>Checkout</h2>
+
+        <form asp-action="PlaceOrder" method="post">
+            <div class="mb-4">
+                <label>Delivery Address</label>
+                <textarea name="deliveryAddress" class="form-control-custom" required></textarea>
+            </div>
+
+            <div class="mb-4">
+                <label>Notes</label>
+                <textarea name="notes" class="form-control-custom"></textarea>
+            </div>
+
+            <div class="mb-4">
+                <label>Payment Method</label>
+                <select name="paymentMethod" class="form-control-custom">
+                    <option>Cash on Delivery</option>
+                    <option>UPI</option>
+                    <option>Card</option>
+                </select>
+            </div>
+
+            <h4>Total: ₹@ViewBag.Total</h4>
+
+            <button type="submit" class="btn-fire mt-3">
+                Place Order
+            </button>
+        </form>
+    </div>
+</div>

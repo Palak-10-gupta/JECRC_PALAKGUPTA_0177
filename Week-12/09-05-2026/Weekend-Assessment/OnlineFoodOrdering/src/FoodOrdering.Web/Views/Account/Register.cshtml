@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Register";
+    ViewData["HideNavbar"] = true;
+    Layout = "_Layout";
+}
+
+<div style="min-height:100vh;display:flex;align-items:center;justify-content:center;background:var(--dark);padding:2rem;">
+    <div style="width:100%;max-width:480px">
+        <div class="text-center mb-4">
+            <a asp-controller="Home" asp-action="Index" style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:900;color:var(--text);text-decoration:none">
+                🔥 Food<span style="color:var(--primary)">Rush</span>
+            </a>
+            <p class="mt-2" style="color:var(--text-muted)">Create your account and start ordering</p>
+        </div>
+        <div class="form-card">
+            @if (!ViewData.ModelState.IsValid)
+            {
+                <div class="alert-fire mb-3">
+                    @foreach (var e in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        <div>⚠️ @e.ErrorMessage</div>
+                    }
+                </div>
+            }
+            <form asp-action="Register" method="post">
+                <div class="mb-4">
+                    <label class="form-label-custom">Full Name</label>
+                    <input type="text" name="fullName" class="form-control-custom" placeholder="John Doe" required />
+                </div>
+                <div class="mb-4">
+                    <label class="form-label-custom">Email Address</label>
+                    <input type="email" name="email" class="form-control-custom" placeholder="you@example.com" required />
+                </div>
+                <div class="mb-4">
+                    <label class="form-label-custom">Password</label>
+                    <input type="password" name="password" class="form-control-custom" placeholder="Min 6 characters" required />
+                </div>
+                <div class="mb-4">
+                    <label class="form-label-custom">Confirm Password</label>
+                    <input type="password" name="confirmPassword" class="form-control-custom" placeholder="Repeat password" required />
+                </div>
+                <button type="submit" class="btn-fire w-100 justify-content-center" style="font-size:1rem;padding:1rem;">
+                    Create Account <i class="bi bi-arrow-right"></i>
+                </button>
+            </form>
+            <p class="text-center mt-4" style="color:var(--text-muted);font-size:.9rem;">
+                Already have an account? <a asp-action="Login" style="color:var(--primary);font-weight:600">Sign In</a>
+            </p>
+        </div>
+    </div>
+</div>

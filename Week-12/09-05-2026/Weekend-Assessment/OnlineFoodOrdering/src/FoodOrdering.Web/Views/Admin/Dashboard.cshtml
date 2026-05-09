@@ -1,0 +1,104 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+    ViewData["HideNavbar"] = true;
+    Layout = "_Layout";
+}
+
+<div style="display:flex;min-height:100vh">
+    <!-- Sidebar -->
+    <aside class="admin-sidebar">
+        <div class="brand">
+            <div style="font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:900">
+                🔥 Food<span style="color:var(--primary)">Rush</span>
+            </div>
+            <div style="color:var(--text-muted);font-size:.78rem;margin-top:.25rem">Admin Panel</div>
+        </div>
+        <nav>
+            <a asp-action="Dashboard" asp-controller="Admin" class="admin-nav-item active">
+                <span class="icon">📊</span> Dashboard
+            </a>
+            <a asp-action="FoodItems" asp-controller="Admin" class="admin-nav-item">
+                <span class="icon">🍽️</span> Food Items
+            </a>
+            <a asp-action="Categories" asp-controller="Admin" class="admin-nav-item">
+                <span class="icon">📂</span> Categories
+            </a>
+            <a asp-action="Orders" asp-controller="Admin" class="admin-nav-item">
+                <span class="icon">📦</span> Orders
+            </a>
+            <hr class="divider mx-3">
+            <a asp-controller="Home" asp-action="Index" class="admin-nav-item">
+                <span class="icon">🌐</span> View Site
+            </a>
+            <form asp-controller="Account" asp-action="Logout" method="post">
+                <button type="submit" class="admin-nav-item" style="width:100%;border:none;background:none;text-align:left;">
+                    <span class="icon">🚪</span> Logout
+                </button>
+            </form>
+        </nav>
+    </aside>
+
+    <!-- Main -->
+    <main class="admin-main" style="flex:1">
+        <div class="mb-4">
+            <h2 style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:900">Dashboard</h2>
+            <p style="color:var(--text-muted)">Welcome back, Admin! Here's what's happening.</p>
+        </div>
+
+        <!-- Stats -->
+        <div class="row g-3 mb-4">
+            <div class="col-md-3">
+                <div class="stat-card">
+                    <div class="stat-icon stat-icon-red">📦</div>
+                    <div>
+                        <div class="stat-card-value">@ViewBag.TotalOrders</div>
+                        <div class="stat-card-label">Total Orders</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stat-card">
+                    <div class="stat-icon stat-icon-gold">⏳</div>
+                    <div>
+                        <div class="stat-card-value">@ViewBag.PendingOrders</div>
+                        <div class="stat-card-label">Pending Orders</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stat-card">
+                    <div class="stat-icon stat-icon-green">💰</div>
+                    <div>
+                        <div class="stat-card-value">₹@((ViewBag.TotalRevenue as decimal?)?.ToString("F0") ?? "0")</div>
+                        <div class="stat-card-label">Total Revenue</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stat-card">
+                    <div class="stat-icon stat-icon-blue">🍽️</div>
+                    <div>
+                        <div class="stat-card-value">@ViewBag.TotalFoodItems</div>
+                        <div class="stat-card-label">Menu Items</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Actions -->
+        <div class="mb-4">
+            <h5 style="margin-bottom:1.25rem;font-weight:700">Quick Actions</h5>
+            <div class="d-flex gap-3 flex-wrap">
+                <a asp-action="CreateFood" asp-controller="Admin" class="btn-fire">
+                    <i class="bi bi-plus-circle"></i> Add Food Item
+                </a>
+                <a asp-action="CreateCategory" asp-controller="Admin" class="btn-outline-fire">
+                    <i class="bi bi-folder-plus"></i> Add Category
+                </a>
+                <a asp-action="Orders" asp-controller="Admin" class="btn-gold">
+                    <i class="bi bi-list-check"></i> View All Orders
+                </a>
+            </div>
+        </div>
+    </main>
+</div>

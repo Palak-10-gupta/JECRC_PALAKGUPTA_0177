@@ -1,0 +1,151 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    var featured = ViewBag.FeaturedItems as IEnumerable<FoodOrdering.Core.Models.FoodItem>;
+    var categories = ViewBag.Categories as IEnumerable<FoodOrdering.Core.Models.Category>;
+}
+
+<!-- HERO -->
+<section class="hero">
+    <div class="container position-relative">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="section-tag animate-fade-up">🔥 Hot & Fresh Everyday</div>
+                <h1 class="hero-title animate-fade-up">
+                    Order <span class="highlight">Delicious</span><br>
+                    Food <span class="alt">Instantly</span>
+                </h1>
+                <p class="hero-sub animate-fade-up">
+                    From handcrafted burgers to artisan pizzas — discover flavours that make every meal unforgettable.
+                </p>
+                <div class="d-flex gap-3 animate-fade-up">
+                    <a asp-controller="Food" asp-action="Index" class="btn-fire pulse-glow">
+                        <i class="bi bi-bag2"></i> Order Now
+                    </a>
+                    <a asp-controller="Food" asp-action="Index" class="btn-outline-fire">
+                        View Menu
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Happy Customers</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Menu Items</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">30min</span>
+                        <span class="stat-label">Avg Delivery</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center d-none d-lg-block">
+                <div style="font-size:12rem;animation:pulse-glow 3s infinite;filter:drop-shadow(0 0 40px rgba(255,69,0,.4))">
+                    🍔
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CATEGORIES -->
+@if (categories?.Any() == true)
+{
+    <section class="py-5" style="background:var(--dark-2);">
+        <div class="container">
+            <div class="text-center mb-4">
+                <div class="section-tag">Browse By Category</div>
+                <h2 class="section-title">What Are You <span style="color:var(--primary)">Craving?</span></h2>
+            </div>
+            <div class="d-flex flex-wrap gap-3 justify-content-center">
+                <a asp-controller="Food" asp-action="Index" class="category-pill active">All Items</a>
+                @foreach (var cat in categories)
+                {
+                    <a asp-controller="Food" asp-action="Index" asp-route-categoryId="@cat.Id" class="category-pill">
+                        @cat.Name
+                    </a>
+                }
+            </div>
+        </div>
+    </section>
+}
+
+<!-- FEATURED -->
+@if (featured?.Any() == true)
+{
+    <section class="py-5">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between mb-4">
+                <div>
+                    <div class="section-tag">⭐ Chef's Pick</div>
+                    <h2 class="section-title">Featured <span style="color:var(--primary)">Dishes</span></h2>
+                </div>
+                <a asp-controller="Food" asp-action="Index" class="btn-outline-fire">View All</a>
+            </div>
+            <div class="row g-4 stagger">
+                @foreach (var item in featured.Take(6))
+                {
+                    <div class="col-md-6 col-lg-4 animate-fade-up">
+                        <div class="food-card">
+                            <div class="food-card-img">
+                                @if (!string.IsNullOrEmpty(item.ImageUrl))
+                                {
+                                    <img src="@item.ImageUrl" alt="@item.Name">
+                                }
+                                else
+                                {
+
+                                    <span>🍽️</span>
+                                }
+                            </div>
+                            <div class="food-card-body">
+                                <div class="food-card-category">@item.Category?.Name</div>
+                                <h3 class="food-card-title">@item.Name</h3>
+                                <p class="food-card-desc">@item.Description</p>
+                            </div>
+                            <div class="food-card-footer">
+                                <span class="food-price">₹@item.Price.ToString("F0")</span>
+                                <form asp-controller="Cart" asp-action="AddToCart" method="post">
+                                    <input type="hidden" name="foodItemId" value="@item.Id" />
+                                    <input type="hidden" name="quantity" value="1" />
+                                    <button type="submit" class="btn-fire" style="padding:.5rem 1.25rem;font-size:.85rem;">
+                                        <i class="bi bi-plus"></i> Add
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+}
+
+<!-- HOW IT WORKS -->
+<section class="py-5" style="background:var(--dark-2);">
+    <div class="container">
+        <div class="text-center mb-5">
+            <div class="section-tag">Simple Steps</div>
+            <h2 class="section-title">How It <span style="color:var(--primary)">Works</span></h2>
+        </div>
+        <div class="row g-4 text-center">
+            @foreach (var step in new[] {
+                ("🍽️", "01", "Browse Menu", "Explore hundreds of dishes from multiple categories"),
+                ("🛒", "02", "Add to Cart", "Select your favourites and customise your order"),
+                ("💳", "03", "Checkout", "Secure payment in seconds"),
+                ("🚀", "04", "Fast Delivery", "Track your order delivered fresh to your door")
+            })
+            {
+                <div class="col-md-3">
+                    <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:2rem;height:100%;transition:all .3s" onmouseover="this.style.borderColor='rgba(255,69,0,.4)'" onmouseout="this.style.borderColor='var(--border)'">
+                        <div style="font-size:2.5rem;margin-bottom:1rem">@step.Item1</div>
+                        <div style="color:var(--primary);font-size:.75rem;font-weight:700;letter-spacing:2px;margin-bottom:.5rem">STEP @step.Item2</div>
+                        <h4 style="font-family:'Playfair Display',serif;margin-bottom:.75rem">@step.Item3</h4>
+                        <p style="color:var(--text-muted);font-size:.9rem">@step.Item4</p>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>

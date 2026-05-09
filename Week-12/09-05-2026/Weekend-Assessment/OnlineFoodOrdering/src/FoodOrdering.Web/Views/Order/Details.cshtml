@@ -1,0 +1,24 @@
+﻿@model FoodOrdering.Core.Models.Order
+
+<div class="container py-5">
+    <div class="form-card">
+        <h2>Order #@Model.Id</h2>
+
+        @foreach (var item in Model.OrderItems)
+        {
+            <div class="d-flex justify-content-between mb-3">
+                <span>@item.FoodItem.Name x @item.Quantity</span>
+                <span>₹@item.Subtotal</span>
+            </div>
+        }
+
+        <hr />
+        <h4>Total: ₹@Model.TotalAmount</h4>
+
+        <a asp-action="GeneratePdfInvoice"
+               asp-route-id="@Model.Id"
+               class="btn-fire mt-3">
+            Download Invoice
+        </a>
+    </div>
+</div>

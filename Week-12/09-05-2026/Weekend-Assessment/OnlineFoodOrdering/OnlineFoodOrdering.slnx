@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="docker-compose.yml" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/FoodOrdering.API/FoodOrdering.API.csproj" />
+    <Project Path="src/FoodOrdering.Core/FoodOrdering.Core.csproj" />
+    <Project Path="src/FoodOrdering.Infrastructure/FoodOrdering.Infrastructure.csproj" />
+    <Project Path="src/FoodOrdering.Web/FoodOrdering.Web.csproj" />
+  </Folder>
+</Solution>

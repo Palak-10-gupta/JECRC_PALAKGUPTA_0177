@@ -1,0 +1,94 @@
+﻿@model IEnumerable<FoodOrdering.Core.Models.FoodItem>
+@{
+    ViewData["Title"] = "Menu";
+    var categories = ViewBag.Categories as IEnumerable<FoodOrdering.Core.Models.Category>;
+    var search = ViewBag.Search as string;
+    var selectedCat = ViewBag.SelectedCategory as int?;
+}
+
+<div class="container py-5">
+    <!-- Header -->
+    <div class="mb-5">
+        <div class="section-tag">🍽️ Full Menu</div>
+        <h1 class="section-title">Our <span style="color:var(--primary)">Delicious</span> Menu</h1>
+    </div>
+
+    <!-- Search + Filters -->
+    <div class="row g-3 mb-4">
+        <div class="col-md-8">
+            <form method="get">
+                <div class="d-flex gap-2">
+                    <input type="text" name="search" value="@search" placeholder="Search food items..."
+                           class="form-control-custom" style="flex:1" />
+                    <button type="submit" class="btn-fire">
+                        <i class="bi bi-search"></i> Search
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Category Pills -->
+    <div class="d-flex flex-wrap gap-2 mb-4">
+        <a asp-action="Index" class="category-pill @(selectedCat == null && string.IsNullOrEmpty(search) ? "active" : "")">
+            All
+        </a>
+        @foreach (var cat in categories ?? Enumerable.Empty<FoodOrdering.Core.Models.Category>())
+        {
+            <a asp-action="Index" asp-route-categoryId="@cat.Id"
+                   class="category-pill @(selectedCat == cat.Id ? "active" : "")">
+                @cat.Name
+            </a>
+        }
+    </div>
+
+    <!-- Food Grid -->
+    @if (!Model.Any())
+    {
+        <div class="empty-state">
+            <div class="icon">🍽️</div>
+            <h3>No items found</h3>
+            <p>Try a different search or category</p>
+            <a asp-action="Index" class="btn-fire mt-3">Clear Filters</a>
+        </div>
+    }
+    else
+    {
+        <div class="row g-4">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-6 col-lg-4 animate-fade-up">
+                    <div class="food-card">
+                        <div class="food-card-img">
+                            @if (!string.IsNullOrEmpty(item.ImageUrl))
+                            {
+                                <img src="@item.ImageUrl" alt="@item.Name">
+                            }
+                            else
+                            {
+
+                                <span>🍽️</span>
+                            }
+                        </div>
+                        <div class="food-card-body">
+                            <div class="food-card-category">@item.Category?.Name</div>
+                            <h3 class="food-card-title">@item.Name</h3>
+                            <p class="food-card-desc">@item.Description</p>
+                            <span class="badge-available">✓ Available</span>
+                        </div>
+                        <div class="food-card-footer">
+                            <span class="food-price">₹@item.Price.ToString("F0")</span>
+                            <form asp-controller="Cart" asp-action="AddToCart" method="post">
+                                <input type="hidden" name="foodItemId" value="@item.Id" />
+                                <input type="hidden" name="quantity" value="1" />
+                                <button type="submit" class="btn-fire" style="padding:.55rem 1.25rem;font-size:.85rem;">
+                                    <i class="bi bi-bag-plus"></i> Add to Cart
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
