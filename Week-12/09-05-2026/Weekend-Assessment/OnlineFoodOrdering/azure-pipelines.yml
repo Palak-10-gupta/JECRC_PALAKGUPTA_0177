@@ -1,0 +1,74 @@
+trigger:
+  branches:
+    include:
+      - main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  buildConfiguration: 'Release'
+  dotnetVersion: '8.0.x'
+
+stages:
+- stage: Build
+  displayName: Build and Publish
+  jobs:
+  - job: BuildJob
+    steps:
+    - task: UseDotNet@2
+      inputs:
+        packageType: sdk
+        version: $(dotnetVersion)
+
+    - task: DotNetCoreCLI@2
+      displayName: Restore
+      inputs:
+        command: restore
+        projects: '**/*.csproj'
+
+    - task: DotNetCoreCLI@2
+      displayName: Build
+      inputs:
+        command: build
+        projects: '**/*.csproj'
+        arguments: '--configuration $(buildConfiguration)'
+
+    - task: DotNetCoreCLI@2
+      displayName: Publish Web
+      inputs:
+        command: publish
+        projects: 'src/FoodOrdering.Web/FoodOrdering.Web.csproj'
+        arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)/web'
+
+    - task: DotNetCoreCLI@2
+      displayName: Publish API
+      inputs:
+        command: publish
+        projects: 'src/FoodOrdering.API/FoodOrdering.API.csproj'
+        arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)/api'
+
+    - task: PublishBuildArtifacts@1
+      inputs:
+        PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+        ArtifactName: drop
+
+- stage: DockerBuild
+  displayName: Docker Build
+  dependsOn: Build
+  jobs:
+  - job: DockerJob
+    steps:
+    - task: Docker@2
+      displayName: Build Web Image
+      inputs:
+        command: build
+        dockerfile: Dockerfile
+        repository: foodrush-web
+
+    - task: Docker@2
+      displayName: Build API Image
+      inputs:
+        command: build
+        dockerfile: Dockerfile.api
+        repository: foodrush-api
